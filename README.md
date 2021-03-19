@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# About the application
 
 This is my portfolio website
 

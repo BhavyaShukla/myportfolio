@@ -1,0 +1,2620 @@
+(this["webpackJsonpbhavyashukla"] = this["webpackJsonpbhavyashukla"] || []).push([["main"],{
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css":
+/*!**************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/index.css ***!
+  \**************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _component_images_fog_1_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./component/images/fog-1.png */ "./src/component/images/fog-1.png");
+/* harmony import */ var _component_images_fog_2_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./component/images/fog-2.png */ "./src/component/images/fog-2.png");
+// Imports
+
+
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);
+___CSS_LOADER_EXPORT___.push([module.i, "@import url(https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap);"]);
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_component_images_fog_1_png__WEBPACK_IMPORTED_MODULE_2__["default"]);
+var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_component_images_fog_2_png__WEBPACK_IMPORTED_MODULE_3__["default"]);
+// Module
+___CSS_LOADER_EXPORT___.push([module.i, "* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n.kkk {\n  z-index: 3;\n  height: 4em;\n}\n\n\n.container {\n  display: grid;\n  grid-template-columns: 1fr;\n  height: 100vh;\n  width:100vw;\n  grid-template-rows: 0.4fr 1fr 1fr;\n  background:linear-gradient(to right, rgb(1, 173, 159), rgba(202, 243, 248, 0.4));\n  font-family: \"Raleway\", sans-serif;\n  color: rgb(56, 56, 56);\n\n  grid-template-areas:\n    \"a\"\n    \"b\"\n    \"c\";\n}\n\n.white {\n \n  background: black url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/stars.png) repeat !important;\n  color:white !important ;\n\n}\n\n/* iconset */\n.Iconset {\n  grid-area:a;\n  display: grid;\n align-self: center;\n justify-self: center;\nwidth:300px;\nheight: auto;\nz-index: 2;\n  grid-template-rows: 1fr;\n  grid-template-areas:\n    \"a1 a2 b1 b2\";\n \n \n \n}\n.w{\n  color:white;\n}\n\n.github {\n  grid-area: a1;\n  height: 2em;\n  width: 2em;\n  transition: 0.2s ease;\n  margin: auto;\n \n}\n\n.linkedin {\n  grid-area: a2;\n  height: 2em;\n  width: 2em;\n  transition: 0.2s ease;\n  margin: auto;\n}\n.twitter {\n  grid-area: b1;\n  height: 2em;\n  width: 2em;\n  transition: 0.2s ease;\n  margin: auto;\n}\n.instagram {\n  grid-area: b2;\n  height: 2em;\n  width: 2em;\n   transition: 0.2s ease;\n  margin: auto;\n\n}\n.github:hover {\n  grid-area: a1;\n  filter:blur(0.5px);\n\n \n}\n.linkedin:hover {\n  grid-area: a2;\n\n  filter:blur(0.5px);\n\n}\n.twitter:hover {\n  grid-area: b1;\n  filter:blur(0.5px);\n \n  \n}\n.instagram:hover {\n  grid-area: b2;\n \n  filter:blur(0.5px);\n \n}\n/* iconset close */\n.comp {\n  height: 100px;\n  width: 100px;\n  display: none;\n}\n\n.raji {\n  position: relative;\n  bottom: -11.7px;\n  left: -1px;\n\n  transition: all 2s ease;\n}\n.maji {\n  transition: all 2s ease;\n}\n.Bhav {\n  display: flex;\n  background-color: rgba(255, 255, 255, 0.1);\n  border-radius: 5px;\n  top: 2px;\n  z-index: 2;\n  margin-right: 1em;\n  transition: background-color 1s ease-in-out;\n}\n.Bhav h4{\n  position: absolute;\n  background-color:bisque;\n  padding: 20px;\n  left: 38%;\n  bottom: 60%;\n  margin: 0;\n \n  color:rgb(56, 56, 56);\n  opacity:0;\n  transition:1s;\n}\n.Bhav:hover h4 {\n  opacity:1;\n}\n.Bhav:hover > .raji {\n  filter: grayscale(100%);\n  transform: translate(20rem, 0);\n}\n.Bhav:hover > .maji {\n  filter: grayscale(100%);\n  transform: translate(-20rem, 0);\n}\n.Bhav:hover {\n  border-radius: 10px;\n  background-color: rgba(98, 25, 121, 0);\n  z-index: 2;\n\n  transition: background-color 1s ease-in-out;\n}\n\n.mags {\n  display: flex;\n}\n.mags > img {\n  margin: 0 10px;\n  transition: all 1s ease;\n}\n.mags > img:hover {\n  margin: 0 10px;\n  width: 150px !important;\n  height: 150px !important;\n  filter:grayscale(100%)\n}\n.flags {\n  grid-area: c;\n  align-self: center;\n  justify-self: center;\n  align-items: center;\n  justify-content: center;\n  z-index: 2;\n}\n/* page3 start */\n.container3 {\n  display: grid;\n  grid-template-columns: 1fr;\n  height: auto;\n  width: 100vw;\n\n  grid-template-rows: 0.2fr 1fr;\n  background:linear-gradient(to right, rgb(1, 173, 159), rgba(202, 243, 248, 0.4));\n  font-family: Cambria, Cochin, Georgia, Times, \"Times New Roman\", serif;\n\n  color: rgb(56, 56, 56);\n  grid-template-areas:\n    \"hh3\"\n    \"aa3\"\n    \"aa3\";\n}\n.Tline {\n  grid-area: aa3;\n  margin: 2em;\n}\n.Exp {\n  grid-area: hh3;\n  align-self: center;\n  justify-self: center;\n  font-family: \"Raleway\", sans-serif;\n  color: white;\n  z-index: 2;\n  /* padding: 0 1em;\n\n  background: linear-gradient(to right, rgba(0,0, 0, 1), rgba(50,50,50, 0.9));\n  border:1px solid white;\n\n  border-radius: 1em;\n  font-weight: 900; */\n}\n.change{\n  /* background:linear-gradient(to right, rgba(243, 156, 18, 1), rgba(249, 191, 59, 0.7)); */\n}\n.vertical-timeline-element-title {\n  margin: 1em 2px !important;\n}\n.vertical-timeline-element-subtitle {\n  display: flex;\n  list-style: none;\n  height: -moz-fit-content !important;\n  height: fit-content !important;\n  flex-wrap: wrap;\n  color:white;\n}\n.mck {\n  padding: 0 5px;\n\n  background:linear-gradient(to right, rgb(1, 173, 159), rgba(202, 243, 248, 0.4));\n  color:white;\n  margin: 2px 2px;\n  border-radius: 1em;\n  text-shadow: 1px 1px 1px rgba(105, 104, 104, 0.973);\n}\n.orgk{\n  background:linear-gradient(to right,rgb(86, 96, 107), rgba(59, 61, 61, 0.4));\n  text-shadow: 2px 2px 5px rgb(119, 119, 118);\n}\n\n/* page3 end */\n\n/* page2 start */\n.container2 {\n  display: grid;\n  grid-template-columns: 1fr;\n \n  height: -moz-fit-content;\n \n  height: fit-content;\n  width: 100vw;\n \n  grid-template-rows: 3fr;\n  background:linear-gradient(to right, rgb(1, 173, 159), rgba(202, 243, 248, 0.4));\n\n  font-family: \"Raleway\", sans-serif;\n  color: rgb(56, 56, 56);\n\n  grid-template-areas:\n    \"bb\"\n    \"dd\"\n   \" ff\";\n}\n.org{\n  background:  #e9e9e8;\n}\n.skillset {\n  align-self: center;\n  justify-self:center;\n  grid-area: dd;\n  display: grid;\n  grid-template-columns: 1fr;\n  grid-template-rows: 1fr 3fr;\n  grid-template-areas:\n    \"skhead\"\n    \"skills\";\n}\n.skillhead {\n  grid-area: skhead;\n    align-self: center;\n    justify-self:center;\n    color:rgb(0, 0, 0);\n    \n}\n.allskills {\n  grid-area: skills;\n  display: grid;\n  grid-template-columns: 0.5fr 1fr;\n  grid-template-rows: repeat(6, 1fr);\n  grid-template-areas:\n    \"skh1 sks1\"\n    \"skh2 sks2\"\n    \"skh3 sks3\"\n    \"skh4 sks4\"\n    \"skh5 sks5\"\n    \"skh6 sks6\";\n}\n/* all skills set */\n.sks1 {\n  grid-area: sks1;\n  display: flex;\n  padding:0.5em;\n \n\n}\n.sks2 {\n  grid-area: sks2;\n  display: flex;\n  padding:0.5em;\n}\n.sks3 {\n  grid-area: sks6;\n  display: flex;\n  padding:0.5em;\n}\n.sks4 {\n  grid-area: sks4;\n  display: flex;\n  padding:0.5em;\n}\n.sks5 {\n  grid-area: sks5;\n  display: flex;\n  padding:0.5em;\n}\n.sks6 {\n  grid-area: sks3;\n  display: flex;\n  padding:0.5em;\n}\n/* all skill set close */\n\n/* all heads */\n.skh1 {\n  grid-area: skh1;\n  color:rgba(255 255,255, 0.5);\n  filter: drop-shadow( 2px 2px 2px rgba(255 255,255, 1));\n}\n.skh2 {\n  grid-area: skh2;\n  color:rgba(255 255,255, 0.5);\n  filter: drop-shadow( 2px 2px 2px rgba(255 255,255, 1));\n}\n.skh3 {\n  grid-area: skh6;\n  color:rgba(255 255,255, 0.5);\n  filter: drop-shadow( 2px 2px 2px rgba(255 255,255, 1));\n}\n.skh4 {\n  grid-area: skh4;\n  color:rgba(255 255,255, 0.5);\n  filter: drop-shadow( 2px 2px 2px rgba(255 255,255, 1));\n}\n.skh5 {\n  grid-area: skh5;\n  color:rgba(255 255,255, 0.5);\n  filter: drop-shadow( 2px 2px 2px rgba(255 255,255, 1));\n}\n.skh6 {\n  grid-area: skh3;\n  color:rgba(255 255,255, 0.5);\n  filter: drop-shadow( 2px 2px 2px rgba(255 255,255, 1));\n}\n\n/* all head close */\n\n.ImageCard {\n  grid-area: cc;\n  justify-self: center;\n  align-self: center;\n  height: min-content;\n  width: 15em;\n  padding: 1em;\n  border-radius: 1em;\n border:1px solid white;\n \n  color: white; \n}\n\n.orgka{\n \n  color:white;\n  filter: drop-shadow( 1px 1px 0.5px rgba(0, 0, 0, 1));\n}\n.Imglist {\n  display: flex;\n  align-items: flex-end;\n  display:none;\n  justify-content: center;\n}\n.imgsl {\n  height: 4em;\n  width: 4em;\n  padding: 1em;\n\n}\n/* page2 close */\n.Centera {\n  grid-area: b;\n  justify-self: center;\n  display: flex;\n  flex-direction: column;\n  z-index: 2;\n  height: 100%;\n  align-items: center;\n  margin: 30px 20px;\n}\n\n.intro {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  text-align: center;\n}\n\n.typing {\n  position: relative;\n  bottom: -0.9px;\n  margin-left: 5px;\n}\n\n.typing::after {\n  content: \"\";\n  position: absolute;\n  width: 1.3px;\n  height: 100%;\n  right: -5px;\n\n  border-right: 2px solid orange;\n  animation: blink 0.5s infinite ease;\n}\n@keyframes blink {\n  0% {\n    opacity: 0;\n  }\n  100% {\n    opacity: 1;\n  }\n}\n\n/* react toggle start */\n\n.react-toggle {\n  touch-action: pan-x;\n\n  display: inline-block;\n  position: relative;\n  cursor: pointer;\n  background-color: transparent;\n  border: 0;\n  padding: 0;\n\n  -webkit-touch-callout: none;\n  -webkit-user-select: none;\n  user-select: none;\n\n  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);\n  -webkit-tap-highlight-color: transparent;\n}\n\n.react-toggle-screenreader-only {\n  border: 0;\n  clip: rect(0 0 0 0);\n  height: 1px;\n  margin: -1px;\n  overflow: hidden;\n  padding: 0;\n  position: absolute;\n  width: 1px;\n}\n\n.react-toggle--disabled {\n  cursor: not-allowed;\n  opacity: 0.5;\n  transition: opacity 0.25s;\n}\n\n.react-toggle-track {\n  width: 50px;\n  height: 24px;\n  padding: 0;\n  border-radius: 30px;\n  background-color: #313131;\n  transition: all 0.2s ease;\n}\n\n.react-toggle:hover:not(.react-toggle--disabled) .react-toggle-track {\n  background-color: #1d1d1d;\n}\n\n.react-toggle--checked .react-toggle-track {\n  background-color: #19ab27;\n}\n\n.react-toggle--checked:hover:not(.react-toggle--disabled) .react-toggle-track {\n  background-color: #128d15;\n}\n\n.react-toggle-track-check {\n  position: absolute;\n  width: 14px;\n  height: 10px;\n  top: 0px;\n  bottom: 0px;\n  margin-top: auto;\n  margin-bottom: auto;\n  line-height: 0;\n  left: 8px;\n  opacity: 0;\n  transition: opacity 0.25s ease;\n}\n\n.react-toggle--checked .react-toggle-track-check {\n  opacity: 1;\n  transition: opacity 0.25s ease;\n}\n\n.react-toggle-track-x {\n  position: absolute;\n  width: 10px;\n  height: 10px;\n  top: 0px;\n  bottom: 0px;\n  margin-top: auto;\n  margin-bottom: auto;\n  line-height: 0;\n  right: 10px;\n  opacity: 1;\n  transition: opacity 0.25s ease;\n}\n\n.react-toggle--checked .react-toggle-track-x {\n  opacity: 0;\n}\n\n.react-toggle-thumb {\n  transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1) 0ms;\n  position: absolute;\n  top: 1px;\n  left: 1px;\n  width: 22px;\n  height: 22px;\n  border: 1px solid #4d4d4d;\n  border-radius: 50%;\n  background-color: #fafafa;\n  box-sizing: border-box;\n  transition: all 0.25s ease;\n}\n\n.allcloud{\n  position: absolute;\n  width: 100vw;\n  bottom:70%;\n  animation-fill-mode: forwards;\n animation: linear infinite;\nanimation-name: run;\nanimation-duration: 10s;\ndisplay: none;\n}\n.Imgsss222{\n  position: absolute;\n  bottom: 45%;\n  left:20%;\n  height:3em;\n  filter: blur(4px);\n}\n.Imgsss22{\n position: absolute;\n bottom: 40%;\n left:60%;\n height:4em;\n filter: blur(4px);\n}\n@keyframes run {\n from {\n  transform: translateX(100%);\n  }\n\n \n  to {\n    \n    transform: translate(-2000px);\n\n  }\n}\n\n\n.Imgsss1{\nposition: relative;\nfilter: blur(4px);\nheight: 15em;\n}\n.Imgsss11{\n  position: relative;\n  left:20%;\n  height: 5em;\n  filter: blur(4px);\n  }\n  .Imgsss111{\n    position: relative;\n    bottom:65%;\n    left:40%;\n    height:15em;\n    \n    filter: blur(4px);\n\n    }\n.react-toggle--checked .react-toggle-thumb {\n  left: 27px;\n  border-color: #19ab27;\n}\n\n.react-toggle--focus .react-toggle-thumb {\n  box-shadow: 0px 0px 2px 3px #0099e0;\n}\n\n.react-toggle:active:not(.react-toggle--disabled) .react-toggle-thumb {\n  box-shadow: 0px 0px 5px 5px #0099e0;\n}\n\n/* react toggle stop */\n\n/* for screen size less than 600 */\n@media only screen and (max-width: 800px) {\n  .Bhav {\n    display: none;\n  }\n  .allcloud{\n    display: none;\n  }\n  .comp {\n    display: block;\n  }\n  .Iconset {\n    display: none;\n  }\n\n  /* page 2 open  */\n\n  .container2 {\n    display: grid;\n    grid-template-columns: 1fr;\n    height: -moz-fit-content;\n    height: fit-content;\n    width: 100vw;\n    padding: 2em 2em;\n    grid-template-rows: 1fr;\n    background-color: #e9e9e8;\n    font-family: \"Raleway\", sans-serif;\n    color: rgb(56, 56, 56);\n\n    grid-template-areas:\n      \"m0\"\n    ;\n  }\n\n  .skillset {\n    grid-area: m0;\n    height: -moz-fit-content!important;\n    height: fit-content!important;\n  \n  }\n\n  /* page 2 close */\n}\n\n@media only screen and (max-width: 400px) {\n  .container {\n    width: max-content;\n  }\n  .container.white {\n    width: max-content;\n  }\n  .container2{\n    display: grid;\n    height: -moz-fit-content;\n    height: fit-content;\n    width: 100vw;\n    padding: 2em 2em;\n    grid-template-rows: 1fr;\n    background-color: #e9e9e8;\n    font-family: \"Raleway\", sans-serif;\n    color: rgb(56, 56, 56);\n\n  }\n  .allskills {\n    grid-area: skills;\n    display: grid;\n   \n    grid-template-rows: repeat(12, 1fr);\n    grid-template-areas:\n      \"skh1\"\n      \"sks1\"\n      \"skh2\"\n      \"sks2\"\n      \"skh3\"\n      \"sks3\"\n      \"skh4\"\n      \"sks4\"\n      \"skh5\"\n      \"sks5\"\n      \"skh6\"\n      \"sks6\";\n  }\n  .skillhead{\n \n    align-self: center;\n    justify-self:center;\n  }\n  \n}\n\n\n\n\n.twinkling{\n\twidth:10000px;\n\theight: 100%;\n\tbackground: transparent url(\"https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/twinkling.png\") repeat;\n\tbackground-size: 1000px 1000px;\n    position: absolute;\n    right: 0;\n    top: 0;\n    bottom: 0;\n    z-index: 1;\n  animation:move-background 70s linear infinite;\n\t\n}\n.twinkling2{\n\twidth:10000px;\n\theight:1300px;\n\tbackground: transparent url(\"https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/twinkling.png\") repeat;\n\tbackground-size: 1000px 1000px;\n    position: absolute;\n   \n    z-index: 0;\n  animation:move-background 70s linear infinite;\n\t\n}\n/* night on */\n\n\n @keyframes move-background {\n  from {\n\t\t-webkit-transform: translate3d(0px, 0px, 0px);\n\t}\n\tto { \n\t\t-webkit-transform: translate3d(1000px, 0px, 0px);\n\t}\n}\n\n\n\n\n\n\n/* cloud 2 end */\n\n\n\n\n\n\n\n/* cloud 3 */\n\n\n\n\n\n\n/* cloud 3 end */\n\n\n\n/*\n.background-container{\n\tposition: absolute;\n\ttop: 0;\n\tleft:0;\n\tbottom: 0;\n\tright: 0;\n}\n\n.stars {\n background: black url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/stars.png) repeat;\n position: absolute;\n\ttop: 0;\n\tbottom: 0;\n\tleft: 0;\n\tright: 0;\n\tdisplay: block;\n  \tz-index: 0;\n}\n\n.twinkling{\n\twidth:10000px;\n\theight: 100%;\n\tbackground: transparent url(\"https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/twinkling.png\") repeat;\n\tbackground-size: 1000px 1000px;\n    position: absolute;\n    right: 0;\n    top: 0;\n    bottom: 0;\n    z-index: 1;\n    \n    -moz-animation:move-background 70s linear infinite;\n  -ms-animation:move-background 70s linear infinite;\n  -o-animation:move-background 70s linear infinite;\n  -webkit-animation:move-background 70s linear infinite;\n  animation:move-background 70s linear infinite;\n\t\n} \n\n/* .clouds{\n\twidth:10000px;\n\theight: 100%;\n\tbackground: transparent url(\"https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/clouds_repeat.png\") repeat;\n\tbackground-size: 1000px 1000px;\n    position: absolute;\n    right: 0;\n    top: 0;\n    bottom: 0;\n    z-index: 3;\n\n   -moz-animation:move-background 150s linear infinite;\n  -ms-animation:move-background 150s linear infinite;\n  -o-animation:move-background 150s linear infinite;\n  -webkit-animation:move-background 150s linear infinite;\n  animation:move-background 150s linear infinite;\n} */\n/* .moon{\n  height: 10vh;\n  width:10h;\n  position: absolute;\n  z-index: 3;\n  right: 20px;\n}\nnight off */\n\n\n\n\n/* fog on  */\n.fog {\n  position: absolute;\n  height:100vh;\n  width: 100%;\n  right:-23px;\n  \n}\n\n.fog-container {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  overflow: hidden;\n  z-index: 2;\n}\n\n.fog-img {\n  position: absolute;\n  height: 100vh;\n  width: 300vw;\n  z-index: 2;\n}\n\n.fog-img-first {\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-repeat: repeat;\n  background-size: contain;\n  background-position: center;\n  animation: marquee 60s linear infinite;\n}\n\n.fog-img-second {\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\n  background-repeat: repeat;\n\n  background-size: contain;\n  background-position: center;\n  animation: marquee 30s linear infinite;\n}\n\n@keyframes marquee {\n  0% {\n    transform: translate3d(0, 0, 0);\n  }\n\n  100% {\n    transform: translate3d(-200vw, 0, 0);\n  }\n}\n/* fog off */\n\n\n/* fog on  */\n\n\n\n\n\n\n/* fog off */", "",{"version":3,"sources":["webpack://src/index.css"],"names":[],"mappings":"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","sourcesContent":["@import url(\"https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap\");\n* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n.kkk {\n  z-index: 3;\n  height: 4em;\n}\n\n\n.container {\n  display: grid;\n  grid-template-columns: 1fr;\n  height: 100vh;\n  width:100vw;\n  grid-template-rows: 0.4fr 1fr 1fr;\n  background:linear-gradient(to right, rgb(1, 173, 159), rgba(202, 243, 248, 0.4));\n  font-family: \"Raleway\", sans-serif;\n  color: rgb(56, 56, 56);\n\n  grid-template-areas:\n    \"a\"\n    \"b\"\n    \"c\";\n}\n\n.white {\n \n  background: black url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/stars.png) repeat !important;\n  color:white !important ;\n\n}\n\n/* iconset */\n.Iconset {\n  grid-area:a;\n  display: grid;\n align-self: center;\n justify-self: center;\nwidth:300px;\nheight: auto;\nz-index: 2;\n  grid-template-rows: 1fr;\n  grid-template-areas:\n    \"a1 a2 b1 b2\";\n \n \n \n}\n.w{\n  color:white;\n}\n\n.github {\n  grid-area: a1;\n  height: 2em;\n  width: 2em;\n  transition: 0.2s ease;\n  margin: auto;\n \n}\n\n.linkedin {\n  grid-area: a2;\n  height: 2em;\n  width: 2em;\n  transition: 0.2s ease;\n  margin: auto;\n}\n.twitter {\n  grid-area: b1;\n  height: 2em;\n  width: 2em;\n  transition: 0.2s ease;\n  margin: auto;\n}\n.instagram {\n  grid-area: b2;\n  height: 2em;\n  width: 2em;\n   transition: 0.2s ease;\n  margin: auto;\n\n}\n.github:hover {\n  grid-area: a1;\n  filter:blur(0.5px);\n\n \n}\n.linkedin:hover {\n  grid-area: a2;\n\n  filter:blur(0.5px);\n\n}\n.twitter:hover {\n  grid-area: b1;\n  filter:blur(0.5px);\n \n  \n}\n.instagram:hover {\n  grid-area: b2;\n \n  filter:blur(0.5px);\n \n}\n/* iconset close */\n.comp {\n  height: 100px;\n  width: 100px;\n  display: none;\n}\n\n.raji {\n  position: relative;\n  bottom: -11.7px;\n  left: -1px;\n\n  transition: all 2s ease;\n}\n.maji {\n  transition: all 2s ease;\n}\n.Bhav {\n  display: flex;\n  background-color: rgba(255, 255, 255, 0.1);\n  border-radius: 5px;\n  top: 2px;\n  z-index: 2;\n  margin-right: 1em;\n  transition: background-color 1s ease-in-out;\n}\n.Bhav h4{\n  position: absolute;\n  background-color:bisque;\n  padding: 20px;\n  left: 38%;\n  bottom: 60%;\n  margin: 0;\n \n  color:rgb(56, 56, 56);\n  opacity:0;\n  transition:1s;\n}\n.Bhav:hover h4 {\n  opacity:1;\n}\n.Bhav:hover > .raji {\n  filter: grayscale(100%);\n  transform: translate(20rem, 0);\n}\n.Bhav:hover > .maji {\n  filter: grayscale(100%);\n  transform: translate(-20rem, 0);\n}\n.Bhav:hover {\n  border-radius: 10px;\n  background-color: rgba(98, 25, 121, 0);\n  z-index: 2;\n\n  transition: background-color 1s ease-in-out;\n}\n\n.mags {\n  display: flex;\n}\n.mags > img {\n  margin: 0 10px;\n  transition: all 1s ease;\n}\n.mags > img:hover {\n  margin: 0 10px;\n  width: 150px !important;\n  height: 150px !important;\n  filter:grayscale(100%)\n}\n.flags {\n  grid-area: c;\n  align-self: center;\n  justify-self: center;\n  align-items: center;\n  justify-content: center;\n  z-index: 2;\n}\n/* page3 start */\n.container3 {\n  display: grid;\n  grid-template-columns: 1fr;\n  height: auto;\n  width: 100vw;\n\n  grid-template-rows: 0.2fr 1fr;\n  background:linear-gradient(to right, rgb(1, 173, 159), rgba(202, 243, 248, 0.4));\n  font-family: Cambria, Cochin, Georgia, Times, \"Times New Roman\", serif;\n\n  color: rgb(56, 56, 56);\n  grid-template-areas:\n    \"hh3\"\n    \"aa3\"\n    \"aa3\";\n}\n.Tline {\n  grid-area: aa3;\n  margin: 2em;\n}\n.Exp {\n  grid-area: hh3;\n  align-self: center;\n  justify-self: center;\n  font-family: \"Raleway\", sans-serif;\n  color: white;\n  z-index: 2;\n  /* padding: 0 1em;\n\n  background: linear-gradient(to right, rgba(0,0, 0, 1), rgba(50,50,50, 0.9));\n  border:1px solid white;\n\n  border-radius: 1em;\n  font-weight: 900; */\n}\n.change{\n  /* background:linear-gradient(to right, rgba(243, 156, 18, 1), rgba(249, 191, 59, 0.7)); */\n}\n.vertical-timeline-element-title {\n  margin: 1em 2px !important;\n}\n.vertical-timeline-element-subtitle {\n  display: flex;\n  list-style: none;\n  height: fit-content !important;\n  flex-wrap: wrap;\n  color:white;\n}\n.mck {\n  padding: 0 5px;\n\n  background:linear-gradient(to right, rgb(1, 173, 159), rgba(202, 243, 248, 0.4));\n  color:white;\n  margin: 2px 2px;\n  border-radius: 1em;\n  text-shadow: 1px 1px 1px rgba(105, 104, 104, 0.973);\n}\n.orgk{\n  background:linear-gradient(to right,rgb(86, 96, 107), rgba(59, 61, 61, 0.4));\n  text-shadow: 2px 2px 5px rgb(119, 119, 118);\n}\n\n/* page3 end */\n\n/* page2 start */\n.container2 {\n  display: grid;\n  grid-template-columns: 1fr;\n \n  height: fit-content;\n  width: 100vw;\n \n  grid-template-rows: 3fr;\n  background:linear-gradient(to right, rgb(1, 173, 159), rgba(202, 243, 248, 0.4));\n\n  font-family: \"Raleway\", sans-serif;\n  color: rgb(56, 56, 56);\n\n  grid-template-areas:\n    \"bb\"\n    \"dd\"\n   \" ff\";\n}\n.org{\n  background:  #e9e9e8;\n}\n.skillset {\n  align-self: center;\n  justify-self:center;\n  grid-area: dd;\n  display: grid;\n  grid-template-columns: 1fr;\n  grid-template-rows: 1fr 3fr;\n  grid-template-areas:\n    \"skhead\"\n    \"skills\";\n}\n.skillhead {\n  grid-area: skhead;\n    align-self: center;\n    justify-self:center;\n    color:rgb(0, 0, 0);\n    \n}\n.allskills {\n  grid-area: skills;\n  display: grid;\n  grid-template-columns: 0.5fr 1fr;\n  grid-template-rows: repeat(6, 1fr);\n  grid-template-areas:\n    \"skh1 sks1\"\n    \"skh2 sks2\"\n    \"skh3 sks3\"\n    \"skh4 sks4\"\n    \"skh5 sks5\"\n    \"skh6 sks6\";\n}\n/* all skills set */\n.sks1 {\n  grid-area: sks1;\n  display: flex;\n  padding:0.5em;\n \n\n}\n.sks2 {\n  grid-area: sks2;\n  display: flex;\n  padding:0.5em;\n}\n.sks3 {\n  grid-area: sks6;\n  display: flex;\n  padding:0.5em;\n}\n.sks4 {\n  grid-area: sks4;\n  display: flex;\n  padding:0.5em;\n}\n.sks5 {\n  grid-area: sks5;\n  display: flex;\n  padding:0.5em;\n}\n.sks6 {\n  grid-area: sks3;\n  display: flex;\n  padding:0.5em;\n}\n/* all skill set close */\n\n/* all heads */\n.skh1 {\n  grid-area: skh1;\n  color:rgba(255 255,255, 0.5);\n  filter: drop-shadow( 2px 2px 2px rgba(255 255,255, 1));\n}\n.skh2 {\n  grid-area: skh2;\n  color:rgba(255 255,255, 0.5);\n  filter: drop-shadow( 2px 2px 2px rgba(255 255,255, 1));\n}\n.skh3 {\n  grid-area: skh6;\n  color:rgba(255 255,255, 0.5);\n  filter: drop-shadow( 2px 2px 2px rgba(255 255,255, 1));\n}\n.skh4 {\n  grid-area: skh4;\n  color:rgba(255 255,255, 0.5);\n  filter: drop-shadow( 2px 2px 2px rgba(255 255,255, 1));\n}\n.skh5 {\n  grid-area: skh5;\n  color:rgba(255 255,255, 0.5);\n  filter: drop-shadow( 2px 2px 2px rgba(255 255,255, 1));\n}\n.skh6 {\n  grid-area: skh3;\n  color:rgba(255 255,255, 0.5);\n  filter: drop-shadow( 2px 2px 2px rgba(255 255,255, 1));\n}\n\n/* all head close */\n\n.ImageCard {\n  grid-area: cc;\n  justify-self: center;\n  align-self: center;\n  height: min-content;\n  width: 15em;\n  padding: 1em;\n  border-radius: 1em;\n border:1px solid white;\n \n  color: white; \n}\n\n.orgka{\n \n  color:white;\n  filter: drop-shadow( 1px 1px 0.5px rgba(0, 0, 0, 1));\n}\n.Imglist {\n  display: flex;\n  align-items: flex-end;\n  display:none;\n  justify-content: center;\n}\n.imgsl {\n  height: 4em;\n  width: 4em;\n  padding: 1em;\n\n}\n/* page2 close */\n.Centera {\n  grid-area: b;\n  justify-self: center;\n  display: flex;\n  flex-direction: column;\n  z-index: 2;\n  height: 100%;\n  align-items: center;\n  margin: 30px 20px;\n}\n\n.intro {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  text-align: center;\n}\n\n.typing {\n  position: relative;\n  bottom: -0.9px;\n  margin-left: 5px;\n}\n\n.typing::after {\n  content: \"\";\n  position: absolute;\n  width: 1.3px;\n  height: 100%;\n  right: -5px;\n\n  border-right: 2px solid orange;\n  animation: blink 0.5s infinite ease;\n}\n@keyframes blink {\n  0% {\n    opacity: 0;\n  }\n  100% {\n    opacity: 1;\n  }\n}\n\n/* react toggle start */\n\n.react-toggle {\n  touch-action: pan-x;\n\n  display: inline-block;\n  position: relative;\n  cursor: pointer;\n  background-color: transparent;\n  border: 0;\n  padding: 0;\n\n  -webkit-touch-callout: none;\n  -webkit-user-select: none;\n  -khtml-user-select: none;\n  -moz-user-select: none;\n  -ms-user-select: none;\n  user-select: none;\n\n  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);\n  -webkit-tap-highlight-color: transparent;\n}\n\n.react-toggle-screenreader-only {\n  border: 0;\n  clip: rect(0 0 0 0);\n  height: 1px;\n  margin: -1px;\n  overflow: hidden;\n  padding: 0;\n  position: absolute;\n  width: 1px;\n}\n\n.react-toggle--disabled {\n  cursor: not-allowed;\n  opacity: 0.5;\n  -webkit-transition: opacity 0.25s;\n  transition: opacity 0.25s;\n}\n\n.react-toggle-track {\n  width: 50px;\n  height: 24px;\n  padding: 0;\n  border-radius: 30px;\n  background-color: #313131;\n  -webkit-transition: all 0.2s ease;\n  -moz-transition: all 0.2s ease;\n  transition: all 0.2s ease;\n}\n\n.react-toggle:hover:not(.react-toggle--disabled) .react-toggle-track {\n  background-color: #1d1d1d;\n}\n\n.react-toggle--checked .react-toggle-track {\n  background-color: #19ab27;\n}\n\n.react-toggle--checked:hover:not(.react-toggle--disabled) .react-toggle-track {\n  background-color: #128d15;\n}\n\n.react-toggle-track-check {\n  position: absolute;\n  width: 14px;\n  height: 10px;\n  top: 0px;\n  bottom: 0px;\n  margin-top: auto;\n  margin-bottom: auto;\n  line-height: 0;\n  left: 8px;\n  opacity: 0;\n  -webkit-transition: opacity 0.25s ease;\n  -moz-transition: opacity 0.25s ease;\n  transition: opacity 0.25s ease;\n}\n\n.react-toggle--checked .react-toggle-track-check {\n  opacity: 1;\n  -webkit-transition: opacity 0.25s ease;\n  -moz-transition: opacity 0.25s ease;\n  transition: opacity 0.25s ease;\n}\n\n.react-toggle-track-x {\n  position: absolute;\n  width: 10px;\n  height: 10px;\n  top: 0px;\n  bottom: 0px;\n  margin-top: auto;\n  margin-bottom: auto;\n  line-height: 0;\n  right: 10px;\n  opacity: 1;\n  -webkit-transition: opacity 0.25s ease;\n  -moz-transition: opacity 0.25s ease;\n  transition: opacity 0.25s ease;\n}\n\n.react-toggle--checked .react-toggle-track-x {\n  opacity: 0;\n}\n\n.react-toggle-thumb {\n  transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1) 0ms;\n  position: absolute;\n  top: 1px;\n  left: 1px;\n  width: 22px;\n  height: 22px;\n  border: 1px solid #4d4d4d;\n  border-radius: 50%;\n  background-color: #fafafa;\n\n  -webkit-box-sizing: border-box;\n  -moz-box-sizing: border-box;\n  box-sizing: border-box;\n\n  -webkit-transition: all 0.25s ease;\n  -moz-transition: all 0.25s ease;\n  transition: all 0.25s ease;\n}\n\n.allcloud{\n  position: absolute;\n  width: 100vw;\n  bottom:70%;\n  animation-fill-mode: forwards;\n animation: linear infinite;\nanimation-name: run;\nanimation-duration: 10s;\ndisplay: none;\n}\n.Imgsss222{\n  position: absolute;\n  bottom: 45%;\n  left:20%;\n  height:3em;\n  filter: blur(4px);\n}\n.Imgsss22{\n position: absolute;\n bottom: 40%;\n left:60%;\n height:4em;\n filter: blur(4px);\n}\n@keyframes run {\n from {\n  transform: translateX(100%);\n  }\n\n \n  to {\n    \n    transform: translate(-2000px);\n\n  }\n}\n\n\n.Imgsss1{\nposition: relative;\nfilter: blur(4px);\nheight: 15em;\n}\n.Imgsss11{\n  position: relative;\n  left:20%;\n  height: 5em;\n  filter: blur(4px);\n  }\n  .Imgsss111{\n    position: relative;\n    bottom:65%;\n    left:40%;\n    height:15em;\n    \n    filter: blur(4px);\n\n    }\n.react-toggle--checked .react-toggle-thumb {\n  left: 27px;\n  border-color: #19ab27;\n}\n\n.react-toggle--focus .react-toggle-thumb {\n  -webkit-box-shadow: 0px 0px 3px 2px #0099e0;\n  -moz-box-shadow: 0px 0px 3px 2px #0099e0;\n  box-shadow: 0px 0px 2px 3px #0099e0;\n}\n\n.react-toggle:active:not(.react-toggle--disabled) .react-toggle-thumb {\n  -webkit-box-shadow: 0px 0px 5px 5px #0099e0;\n  -moz-box-shadow: 0px 0px 5px 5px #0099e0;\n  box-shadow: 0px 0px 5px 5px #0099e0;\n}\n\n/* react toggle stop */\n\n/* for screen size less than 600 */\n@media only screen and (max-width: 800px) {\n  .Bhav {\n    display: none;\n  }\n  .allcloud{\n    display: none;\n  }\n  .comp {\n    display: block;\n  }\n  .Iconset {\n    display: none;\n  }\n\n  /* page 2 open  */\n\n  .container2 {\n    display: grid;\n    grid-template-columns: 1fr;\n    height: fit-content;\n    width: 100vw;\n    padding: 2em 2em;\n    grid-template-rows: 1fr;\n    background-color: #e9e9e8;\n    font-family: \"Raleway\", sans-serif;\n    color: rgb(56, 56, 56);\n\n    grid-template-areas:\n      \"m0\"\n    ;\n  }\n\n  .skillset {\n    grid-area: m0;\n    height: fit-content!important;\n  \n  }\n\n  /* page 2 close */\n}\n\n@media only screen and (max-width: 400px) {\n  .container {\n    width: max-content;\n  }\n  .container.white {\n    width: max-content;\n  }\n  .container2{\n    display: grid;\n    height: fit-content;\n    width: 100vw;\n    padding: 2em 2em;\n    grid-template-rows: 1fr;\n    background-color: #e9e9e8;\n    font-family: \"Raleway\", sans-serif;\n    color: rgb(56, 56, 56);\n\n  }\n  .allskills {\n    grid-area: skills;\n    display: grid;\n   \n    grid-template-rows: repeat(12, 1fr);\n    grid-template-areas:\n      \"skh1\"\n      \"sks1\"\n      \"skh2\"\n      \"sks2\"\n      \"skh3\"\n      \"sks3\"\n      \"skh4\"\n      \"sks4\"\n      \"skh5\"\n      \"sks5\"\n      \"skh6\"\n      \"sks6\";\n  }\n  .skillhead{\n \n    align-self: center;\n    justify-self:center;\n  }\n  \n}\n\n\n\n\n.twinkling{\n\twidth:10000px;\n\theight: 100%;\n\tbackground: transparent url(\"https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/twinkling.png\") repeat;\n\tbackground-size: 1000px 1000px;\n    position: absolute;\n    right: 0;\n    top: 0;\n    bottom: 0;\n    z-index: 1;\n    \n    -moz-animation:move-background 70s linear infinite;\n  -ms-animation:move-background 70s linear infinite;\n  -o-animation:move-background 70s linear infinite;\n  -webkit-animation:move-background 70s linear infinite;\n  animation:move-background 70s linear infinite;\n\t\n}\n.twinkling2{\n\twidth:10000px;\n\theight:1300px;\n\tbackground: transparent url(\"https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/twinkling.png\") repeat;\n\tbackground-size: 1000px 1000px;\n    position: absolute;\n   \n    z-index: 0;\n    \n    -moz-animation:move-background 70s linear infinite;\n  -ms-animation:move-background 70s linear infinite;\n  -o-animation:move-background 70s linear infinite;\n  -webkit-animation:move-background 70s linear infinite;\n  animation:move-background 70s linear infinite;\n\t\n}\n/* night on */\n\n\n @keyframes move-background {\n  from {\n\t\t-webkit-transform: translate3d(0px, 0px, 0px);\n\t}\n\tto { \n\t\t-webkit-transform: translate3d(1000px, 0px, 0px);\n\t}\n}\n@-webkit-keyframes move-background {\n  from {\n\t\t-webkit-transform: translate3d(0px, 0px, 0px);\n\t}\n\tto { \n\t\t-webkit-transform: translate3d(1000px, 0px, 0px);\n\t}\n}\n\n@-moz-keyframes move-background {    \n\tfrom {\n\t\t-webkit-transform: translate3d(0px, 0px, 0px);\n\t}\n\tto { \n\t\t-webkit-transform: translate3d(1000px, 0px, 0px);\n\t}\n}\n\n    @-webkit-keyframes move-background {\n\tfrom {\n\t\t-webkit-transform: translate3d(0px, 0px, 0px);\n\t}\n\tto { \n\t\t-webkit-transform: translate3d(1000px, 0px, 0px);\n\t}\n}\n\n\n\n\n\n\n/* cloud 2 end */\n\n\n\n\n\n\n\n/* cloud 3 */\n\n\n\n\n\n\n/* cloud 3 end */\n\n\n\n/*\n.background-container{\n\tposition: absolute;\n\ttop: 0;\n\tleft:0;\n\tbottom: 0;\n\tright: 0;\n}\n\n.stars {\n background: black url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/stars.png) repeat;\n position: absolute;\n\ttop: 0;\n\tbottom: 0;\n\tleft: 0;\n\tright: 0;\n\tdisplay: block;\n  \tz-index: 0;\n}\n\n.twinkling{\n\twidth:10000px;\n\theight: 100%;\n\tbackground: transparent url(\"https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/twinkling.png\") repeat;\n\tbackground-size: 1000px 1000px;\n    position: absolute;\n    right: 0;\n    top: 0;\n    bottom: 0;\n    z-index: 1;\n    \n    -moz-animation:move-background 70s linear infinite;\n  -ms-animation:move-background 70s linear infinite;\n  -o-animation:move-background 70s linear infinite;\n  -webkit-animation:move-background 70s linear infinite;\n  animation:move-background 70s linear infinite;\n\t\n} \n\n/* .clouds{\n\twidth:10000px;\n\theight: 100%;\n\tbackground: transparent url(\"https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/clouds_repeat.png\") repeat;\n\tbackground-size: 1000px 1000px;\n    position: absolute;\n    right: 0;\n    top: 0;\n    bottom: 0;\n    z-index: 3;\n\n   -moz-animation:move-background 150s linear infinite;\n  -ms-animation:move-background 150s linear infinite;\n  -o-animation:move-background 150s linear infinite;\n  -webkit-animation:move-background 150s linear infinite;\n  animation:move-background 150s linear infinite;\n} */\n/* .moon{\n  height: 10vh;\n  width:10h;\n  position: absolute;\n  z-index: 3;\n  right: 20px;\n}\nnight off */\n\n\n\n\n/* fog on  */\n.fog {\n  position: absolute;\n  height:100vh;\n  width: 100%;\n  right:-23px;\n  \n}\n\n.fog-container {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  overflow: hidden;\n  z-index: 2;\n}\n\n.fog-img {\n  position: absolute;\n  height: 100vh;\n  width: 300vw;\n  z-index: 2;\n}\n\n.fog-img-first {\n  background: url(\"./component/images/fog-1.png\");\n  background-repeat: repeat;\n  background-size: contain;\n  background-position: center;\n  animation: marquee 60s linear infinite;\n}\n\n.fog-img-second {\n  background: url(\"./component/images/fog-2.png\");\n  background-repeat: repeat;\n\n  background-size: contain;\n  background-position: center;\n  animation: marquee 30s linear infinite;\n}\n\n@keyframes marquee {\n  0% {\n    transform: translate3d(0, 0, 0);\n  }\n\n  100% {\n    transform: translate3d(-200vw, 0, 0);\n  }\n}\n/* fog off */\n\n\n/* fog on  */\n\n\n\n\n\n\n/* fog off */"],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./src/App.js":
+/*!********************!*\
+  !*** ./src/App.js ***!
+  \********************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var _component_One__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./component/One */ "./src/component/One.js");
+/* harmony import */ var _component_Two__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./component/Two */ "./src/component/Two.js");
+/* harmony import */ var _component_Three__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./component/Three */ "./src/component/Three.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__);
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+var _jsxFileName = "C:\\Users\\bhavya\\Desktop\\Webportfolio\\bhavyashukla\\src\\App.js",
+    _s = __webpack_require__.$Refresh$.signature();
+
+
+
+
+
+
+
+function App() {
+  _s();
+
+  const [isDark, setIsDark] = Object(react__WEBPACK_IMPORTED_MODULE_3__["useState"])(true);
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("div", {
+    className: "App",
+    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])(_component_One__WEBPACK_IMPORTED_MODULE_0__["default"], {
+      isDark: isDark,
+      setIsDark: setIsDark
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 11,
+      columnNumber: 5
+    }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])(_component_Two__WEBPACK_IMPORTED_MODULE_1__["default"], {
+      isDark: isDark
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 12,
+      columnNumber: 5
+    }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])(_component_Three__WEBPACK_IMPORTED_MODULE_2__["default"], {
+      isDark: isDark
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 5
+    }, this)]
+  }, void 0, true, {
+    fileName: _jsxFileName,
+    lineNumber: 10,
+    columnNumber: 5
+  }, this);
+}
+
+_s(App, "J2KPxrXVm08w6VpAGW6KzmFaeTI=");
+
+_c = App;
+/* harmony default export */ __webpack_exports__["default"] = (App);
+
+var _c;
+
+__webpack_require__.$Refresh$.register(_c, "App");
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/component/Bhavya.js":
+/*!*********************************!*\
+  !*** ./src/component/Bhavya.js ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _images_Asset1_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./images/Asset1.svg */ "./src/component/images/Asset1.svg");
+/* harmony import */ var _images_Asset2_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./images/Asset2.svg */ "./src/component/images/Asset2.svg");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__);
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+var _jsxFileName = "C:\\Users\\bhavya\\Desktop\\Webportfolio\\bhavyashukla\\src\\component\\Bhavya.js";
+
+
+
+
+
+const Bhavya = ({
+  className
+}) => {
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+    className: className,
+    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("h4", {
+      children: ["A passionate programmer with 3 years ", /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("br", {}, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 12,
+        columnNumber: 50
+      }, undefined), " of experience software engineering and developing ", /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("br", {}, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 12,
+        columnNumber: 106
+      }, undefined), " new features and app for different products and company ", /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("br", {}, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 13,
+        columnNumber: 36
+      }, undefined), " with all aspects of the Software Development Life ", /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("br", {}, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 13,
+        columnNumber: 92
+      }, undefined), " Cycle to meet specific project and business requirements. ", /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("br", {}, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 14,
+        columnNumber: 36
+      }, undefined), " With a background in computer software, ", /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("br", {}, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 14,
+        columnNumber: 82
+      }, undefined), " databases, and Big data technology, can work effectively ", /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("br", {}, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 15,
+        columnNumber: 34
+      }, undefined), " in an ever-changing technical world"]
+    }, void 0, true, {
+      fileName: _jsxFileName,
+      lineNumber: 12,
+      columnNumber: 9
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("img", {
+      className: "maji",
+      height: 300,
+      src: _images_Asset1_svg__WEBPACK_IMPORTED_MODULE_1__["default"],
+      alt: ""
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 9
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("img", {
+      className: "raji",
+      height: 288,
+      src: _images_Asset2_svg__WEBPACK_IMPORTED_MODULE_2__["default"],
+      alt: ""
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 9
+    }, undefined)]
+  }, void 0, true, {
+    fileName: _jsxFileName,
+    lineNumber: 11,
+    columnNumber: 7
+  }, undefined);
+};
+
+_c = Bhavya;
+/* harmony default export */ __webpack_exports__["default"] = (Bhavya);
+
+var _c;
+
+__webpack_require__.$Refresh$.register(_c, "Bhavya");
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/component/Flags.js":
+/*!********************************!*\
+  !*** ./src/component/Flags.js ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _images_united_kingdom_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./images/united-kingdom.png */ "./src/component/images/united-kingdom.png");
+/* harmony import */ var _images_germany_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./images/germany.png */ "./src/component/images/germany.png");
+/* harmony import */ var _images_india_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./images/india.png */ "./src/component/images/india.png");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__);
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+var _jsxFileName = "C:\\Users\\bhavya\\Desktop\\Webportfolio\\bhavyashukla\\src\\component\\Flags.js";
+
+
+
+
+
+
+const Flags = ({
+  name,
+  setName
+}) => {
+  const imgst = {
+    height: "100px",
+    width: "100px"
+  };
+
+  const tohin = () => {
+    setName(name = "भव्य शुक्ल");
+    console.log(name);
+  };
+
+  const onc = () => {
+    setName(name = "Bhavya Shukla");
+    console.log(name);
+  };
+
+  const de1 = () => {
+    setName(name = "Бхавиа Схукла");
+    console.log(name);
+  };
+
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("div", {
+    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("div", {
+      className: "mags",
+      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("img", {
+        onClick: () => onc(),
+        style: imgst,
+        src: _images_united_kingdom_png__WEBPACK_IMPORTED_MODULE_1__["default"],
+        alt: ""
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 37,
+        columnNumber: 17
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("img", {
+        onClick: () => tohin(),
+        style: imgst,
+        src: _images_india_png__WEBPACK_IMPORTED_MODULE_3__["default"],
+        alt: ""
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 38,
+        columnNumber: 17
+      }, undefined)]
+    }, void 0, true, {
+      fileName: _jsxFileName,
+      lineNumber: 36,
+      columnNumber: 13
+    }, undefined)
+  }, void 0, false, {
+    fileName: _jsxFileName,
+    lineNumber: 35,
+    columnNumber: 9
+  }, undefined);
+};
+
+_c = Flags;
+/* harmony default export */ __webpack_exports__["default"] = (Flags);
+
+var _c;
+
+__webpack_require__.$Refresh$.register(_c, "Flags");
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/component/Iconset.js":
+/*!**********************************!*\
+  !*** ./src/component/Iconset.js ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_icons_fa__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-icons/fa */ "./node_modules/react-icons/fa/index.esm.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__);
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+var _jsxFileName = "C:\\Users\\bhavya\\Desktop\\Webportfolio\\bhavyashukla\\src\\component\\Iconset.js";
+
+
+
+
+
+
+
+const Iconset = ({
+  className
+}) => {
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+    className: "Iconset",
+    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])(react_icons_fa__WEBPACK_IMPORTED_MODULE_1__["FaTwitterSquare"], {
+      className: "twitter"
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 10,
+      columnNumber: 9
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])(react_icons_fa__WEBPACK_IMPORTED_MODULE_1__["FaLinkedin"], {
+      className: "linkedin"
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 11,
+      columnNumber: 9
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])(react_icons_fa__WEBPACK_IMPORTED_MODULE_1__["FaInstagramSquare"], {
+      className: "instagram"
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 12,
+      columnNumber: 9
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])(react_icons_fa__WEBPACK_IMPORTED_MODULE_1__["FaGithubSquare"], {
+      className: "github"
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 9
+    }, undefined)]
+  }, void 0, true, {
+    fileName: _jsxFileName,
+    lineNumber: 9,
+    columnNumber: 13
+  }, undefined);
+};
+
+_c = Iconset;
+/* harmony default export */ __webpack_exports__["default"] = (Iconset);
+
+var _c;
+
+__webpack_require__.$Refresh$.register(_c, "Iconset");
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/component/One.js":
+/*!******************************!*\
+  !*** ./src/component/One.js ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_toggle__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-toggle */ "./node_modules/react-toggle/dist/component/index.js");
+/* harmony import */ var react_toggle__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_toggle__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _images_computer_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./images/computer.jpg */ "./src/component/images/computer.jpg");
+/* harmony import */ var _Flags__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Flags */ "./src/component/Flags.js");
+/* harmony import */ var _Bhavya__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Bhavya */ "./src/component/Bhavya.js");
+/* harmony import */ var _Iconset__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Iconset */ "./src/component/Iconset.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__);
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+var _jsxFileName = "C:\\Users\\bhavya\\Desktop\\Webportfolio\\bhavyashukla\\src\\component\\One.js",
+    _s = __webpack_require__.$Refresh$.signature();
+
+
+
+
+
+
+
+
+
+const One = ({
+  isDark,
+  setIsDark
+}) => {
+  _s();
+
+  const inp = Object(react__WEBPACK_IMPORTED_MODULE_0__["useRef"])(null);
+
+  const onk = () => {
+    setIsDark(isDark = !isDark);
+
+    if (isDark) {
+      console.log(true);
+    }
+  };
+
+  let text = [" Frontend Developer", " Full Stack Developer", " Data Analyst"];
+  let ogt = "Hi 👋 I am a ";
+  let index = 0;
+  let count = 0;
+  let currentText = "";
+  let letter = "";
+  const [name, setName] = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])("Bhavya Shuka");
+  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(() => {
+    const abc = () => {
+      inp.current.focus();
+      inp.current.textContent = ogt;
+
+      if (count === text.length) {
+        count = 0;
+      }
+
+      currentText = text[count];
+      letter = currentText.slice(0, ++index);
+      inp.current.textContent = letter;
+      inp.current.fontWeight = "bold";
+
+      if (letter.length === currentText.length) {
+        count++;
+        index = 0;
+      }
+
+      setTimeout(abc, 300);
+    };
+
+    abc();
+  }, []);
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])("div", {
+    className: isDark ? "container" : "container white",
+    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])("div", {
+      className: isDark ? "" : " twinkling",
+      children: " "
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 52,
+      columnNumber: 7
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])("section", {
+      class: "fog",
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])("div", {
+        class: "fog-container",
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])("div", {
+          class: "fog-img fog-img-first"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 55,
+          columnNumber: 7
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])("div", {
+          class: "fog-img fog-img-second"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 56,
+          columnNumber: 7
+        }, undefined)]
+      }, void 0, true, {
+        fileName: _jsxFileName,
+        lineNumber: 54,
+        columnNumber: 5
+      }, undefined)
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 53,
+      columnNumber: 7
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])(_Iconset__WEBPACK_IMPORTED_MODULE_5__["default"], {
+      className: "Iconset"
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 59,
+      columnNumber: 6
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])("div", {
+      className: "Centera",
+      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])("img", {
+        className: "comp",
+        src: _images_computer_jpg__WEBPACK_IMPORTED_MODULE_2__["default"],
+        alt: ""
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 62,
+        columnNumber: 9
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])(_Bhavya__WEBPACK_IMPORTED_MODULE_4__["default"], {
+        className: "Bhav"
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 63,
+        columnNumber: 9
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])("h1", {
+        style: {
+          margin: "0.5em 1em"
+        },
+        children: name
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 65,
+        columnNumber: 9
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])("div", {
+        style: {
+          marginBottom: "1em"
+        },
+        className: "intro",
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])("h3", {
+          children: "Hi \uD83D\uDC4B I am a"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 67,
+          columnNumber: 11
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])("h3", {
+          className: "typing",
+          ref: inp
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 68,
+          columnNumber: 11
+        }, undefined)]
+      }, void 0, true, {
+        fileName: _jsxFileName,
+        lineNumber: 66,
+        columnNumber: 9
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])("div", {
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])(react_toggle__WEBPACK_IMPORTED_MODULE_1___default.a, {
+          className: "DarkToggle",
+          checked: isDark,
+          onChange: () => onk(),
+          icons: {
+            checked: "",
+            unchecked: ""
+          },
+          "aria-label": "Dark mode"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 72,
+          columnNumber: 11
+        }, undefined)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 71,
+        columnNumber: 9
+      }, undefined)]
+    }, void 0, true, {
+      fileName: _jsxFileName,
+      lineNumber: 61,
+      columnNumber: 7
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])("div", {
+      className: "flags",
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])(_Flags__WEBPACK_IMPORTED_MODULE_3__["default"], {
+        name: true,
+        setName: setName
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 82,
+        columnNumber: 9
+      }, undefined)
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 81,
+      columnNumber: 7
+    }, undefined)]
+  }, void 0, true, {
+    fileName: _jsxFileName,
+    lineNumber: 51,
+    columnNumber: 5
+  }, undefined);
+};
+
+_s(One, "pvSwUVLxillGRgZSstp15ZOuZw8=");
+
+_c = One;
+/* harmony default export */ __webpack_exports__["default"] = (One);
+
+var _c;
+
+__webpack_require__.$Refresh$.register(_c, "One");
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/component/Skillset.js":
+/*!***********************************!*\
+  !*** ./src/component/Skillset.js ***!
+  \***********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var aos_dist_aos_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! aos/dist/aos.css */ "./node_modules/aos/dist/aos.css");
+/* harmony import */ var aos_dist_aos_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(aos_dist_aos_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var aos__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! aos */ "./node_modules/aos/dist/aos.js");
+/* harmony import */ var aos__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(aos__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_icons_fa__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-icons/fa */ "./node_modules/react-icons/fa/index.esm.js");
+/* harmony import */ var react_icons_di__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-icons/di */ "./node_modules/react-icons/di/index.esm.js");
+/* harmony import */ var react_icons_si__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-icons/si */ "./node_modules/react-icons/si/index.esm.js");
+/* harmony import */ var react_icons_gr__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-icons/gr */ "./node_modules/react-icons/gr/index.esm.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__);
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+var _jsxFileName = "C:\\Users\\bhavya\\Desktop\\Webportfolio\\bhavyashukla\\src\\component\\Skillset.js",
+    _s = __webpack_require__.$Refresh$.signature();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const Skillset = ({
+  isDark,
+  className
+}) => {
+  _s();
+
+  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(() => {
+    aos__WEBPACK_IMPORTED_MODULE_2___default.a.init({
+      duration: 500
+    });
+  }, []);
+  const sty = {
+    height: "3em",
+    width: "3em",
+    margin: "0 0.2em",
+    color: "white",
+    filter: "drop-shadow( 1px 1px 0.5px rgb(0, 0, 0 ))",
+    borderRadius: "1em"
+  };
+  const sty2 = {
+    height: "3em",
+    width: "3em",
+    margin: "0 0.2em",
+    color: "black"
+  };
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxDEV"])("div", {
+    className: className,
+    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxDEV"])("h2", {
+      "data-aos": "fade-up",
+      className: "skillhead",
+      children: "All Skills"
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 55,
+      columnNumber: 7
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxDEV"])("div", {
+      className: "allskills",
+      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxDEV"])("h4", {
+        "data-aos": "flip-left",
+        className: "skh1",
+        children: "Programming Languages: "
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 58,
+        columnNumber: 11
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxDEV"])("h4", {
+        "data-aos": "flip-left",
+        className: "skh2",
+        children: "Framework: "
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 59,
+        columnNumber: 11
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxDEV"])("h4", {
+        "data-aos": "flip-left",
+        className: "skh3",
+        children: "Cloud:"
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 60,
+        columnNumber: 11
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxDEV"])("h4", {
+        "data-aos": "flip-left",
+        className: "skh4",
+        children: "Big Data: "
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 61,
+        columnNumber: 11
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxDEV"])("h4", {
+        "data-aos": "flip-left",
+        className: "skh5",
+        children: "Database:"
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 62,
+        columnNumber: 11
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxDEV"])("h4", {
+        "data-aos": "flip-left",
+        className: "skh6",
+        children: "Tools:"
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 63,
+        columnNumber: 11
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxDEV"])("div", {
+        "data-aos": "zoom-out-down",
+        className: "sks1",
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxDEV"])(react_icons_fa__WEBPACK_IMPORTED_MODULE_3__["FaPython"], {
+          className: "iconeffects",
+          style: isDark ? sty2 : sty
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 66,
+          columnNumber: 11
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxDEV"])(react_icons_fa__WEBPACK_IMPORTED_MODULE_3__["FaJava"], {
+          className: "iconeffects",
+          style: isDark ? sty2 : sty
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 67,
+          columnNumber: 11
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxDEV"])(react_icons_di__WEBPACK_IMPORTED_MODULE_4__["DiJavascript1"], {
+          className: "iconeffects",
+          style: isDark ? sty2 : sty
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 68,
+          columnNumber: 11
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxDEV"])(react_icons_fa__WEBPACK_IMPORTED_MODULE_3__["FaPhp"], {
+          className: "iconeffects",
+          style: isDark ? sty2 : sty
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 69,
+          columnNumber: 11
+        }, undefined)]
+      }, void 0, true, {
+        fileName: _jsxFileName,
+        lineNumber: 65,
+        columnNumber: 11
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxDEV"])("div", {
+        "data-aos": "zoom-out-down",
+        className: "sks2",
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxDEV"])(react_icons_fa__WEBPACK_IMPORTED_MODULE_3__["FaAngular"], {
+          className: "iconeffects",
+          style: isDark ? sty2 : sty
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 74,
+          columnNumber: 11
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxDEV"])(react_icons_fa__WEBPACK_IMPORTED_MODULE_3__["FaReact"], {
+          className: "iconeffects",
+          style: isDark ? sty2 : sty
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 75,
+          columnNumber: 11
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxDEV"])(react_icons_di__WEBPACK_IMPORTED_MODULE_4__["DiDjango"], {
+          className: "iconeffects",
+          style: isDark ? sty2 : sty
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 76,
+          columnNumber: 11
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxDEV"])(react_icons_fa__WEBPACK_IMPORTED_MODULE_3__["FaLaravel"], {
+          className: "iconeffects",
+          style: isDark ? sty2 : sty
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 77,
+          columnNumber: 11
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxDEV"])(react_icons_si__WEBPACK_IMPORTED_MODULE_5__["SiFlask"], {
+          className: "iconeffects",
+          style: isDark ? sty2 : sty
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 78,
+          columnNumber: 11
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxDEV"])(react_icons_fa__WEBPACK_IMPORTED_MODULE_3__["FaBootstrap"], {
+          className: "iconeffects",
+          style: isDark ? sty2 : sty
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 79,
+          columnNumber: 11
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxDEV"])(react_icons_si__WEBPACK_IMPORTED_MODULE_5__["SiMaterialUi"], {
+          className: "iconeffects",
+          style: isDark ? sty2 : sty
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 80,
+          columnNumber: 11
+        }, undefined)]
+      }, void 0, true, {
+        fileName: _jsxFileName,
+        lineNumber: 73,
+        columnNumber: 11
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxDEV"])("div", {
+        "data-aos": "zoom-out-down",
+        className: "sks4",
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxDEV"])(react_icons_si__WEBPACK_IMPORTED_MODULE_5__["SiApachekafka"], {
+          className: "iconeffects",
+          style: isDark ? sty2 : sty
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 84,
+          columnNumber: 11
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxDEV"])(react_icons_gr__WEBPACK_IMPORTED_MODULE_6__["GrHadoop"], {
+          className: "iconeffects",
+          style: isDark ? sty2 : sty
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 85,
+          columnNumber: 11
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxDEV"])(react_icons_si__WEBPACK_IMPORTED_MODULE_5__["SiApachespark"], {
+          className: "iconeffects",
+          style: isDark ? sty2 : sty
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 86,
+          columnNumber: 11
+        }, undefined)]
+      }, void 0, true, {
+        fileName: _jsxFileName,
+        lineNumber: 83,
+        columnNumber: 11
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxDEV"])("div", {
+        "data-aos": "zoom-out-down",
+        className: "sks5",
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxDEV"])(react_icons_si__WEBPACK_IMPORTED_MODULE_5__["SiMysql"], {
+          className: "iconeffects",
+          style: isDark ? sty2 : sty
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 90,
+          columnNumber: 11
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxDEV"])(react_icons_si__WEBPACK_IMPORTED_MODULE_5__["SiPostgresql"], {
+          className: "iconeffects",
+          style: isDark ? sty2 : sty
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 91,
+          columnNumber: 11
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxDEV"])(react_icons_di__WEBPACK_IMPORTED_MODULE_4__["DiMsqlServer"], {
+          className: "iconeffects",
+          style: isDark ? sty2 : sty
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 92,
+          columnNumber: 11
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxDEV"])(react_icons_di__WEBPACK_IMPORTED_MODULE_4__["DiSqllite"], {
+          className: "iconeffects",
+          style: isDark ? sty2 : sty
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 93,
+          columnNumber: 11
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxDEV"])(react_icons_si__WEBPACK_IMPORTED_MODULE_5__["SiCassandra"], {
+          className: "iconeffects",
+          style: isDark ? sty2 : sty
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 94,
+          columnNumber: 11
+        }, undefined)]
+      }, void 0, true, {
+        fileName: _jsxFileName,
+        lineNumber: 89,
+        columnNumber: 11
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxDEV"])("div", {
+        "data-aos": "zoom-out-down",
+        className: "sks6",
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxDEV"])(react_icons_di__WEBPACK_IMPORTED_MODULE_4__["DiPhotoshop"], {
+          className: "iconeffects",
+          style: isDark ? sty2 : sty
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 97,
+          columnNumber: 11
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxDEV"])(react_icons_di__WEBPACK_IMPORTED_MODULE_4__["DiIllustrator"], {
+          className: "iconeffects",
+          style: isDark ? sty2 : sty
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 98,
+          columnNumber: 11
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxDEV"])(react_icons_fa__WEBPACK_IMPORTED_MODULE_3__["FaFigma"], {
+          className: "iconeffects",
+          style: isDark ? sty2 : sty
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 99,
+          columnNumber: 11
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxDEV"])(react_icons_si__WEBPACK_IMPORTED_MODULE_5__["SiTableau"], {
+          className: "iconeffects",
+          style: isDark ? sty2 : sty
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 100,
+          columnNumber: 11
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxDEV"])(react_icons_si__WEBPACK_IMPORTED_MODULE_5__["SiPowerbi"], {
+          className: "iconeffects",
+          style: isDark ? sty2 : sty
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 101,
+          columnNumber: 11
+        }, undefined)]
+      }, void 0, true, {
+        fileName: _jsxFileName,
+        lineNumber: 96,
+        columnNumber: 11
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxDEV"])("div", {
+        "data-aos": "zoom-out-down",
+        className: "sks3",
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxDEV"])("h5", {
+          style: {
+            padding: "2px 1em",
+            margin: "2px 7px",
+            background: isDark ? "black" : "rgb(77, 77, 77)",
+            color: isDark ? "rgb(255, 255, 255)" : "white",
+            borderRadius: "1em"
+          },
+          children: "Google App Engine"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 104,
+          columnNumber: 11
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxDEV"])("h5", {
+          style: {
+            padding: "2px 1em",
+            margin: "2px 7px",
+            background: isDark ? "black" : "rgb(77, 77, 77)",
+            color: isDark ? "rgb(255, 255, 255)" : "white",
+            borderRadius: "1em"
+          },
+          children: "Amazon Web Services"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 105,
+          columnNumber: 11
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxDEV"])("h5", {
+          style: {
+            padding: "2px 1em ",
+            margin: "2px 7px",
+            background: isDark ? "black" : "rgb(77, 77, 77)",
+            color: isDark ? "rgb(255, 255, 255)" : "white",
+            borderRadius: "1em"
+          },
+          children: "Microsoft Azure"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 106,
+          columnNumber: 11
+        }, undefined)]
+      }, void 0, true, {
+        fileName: _jsxFileName,
+        lineNumber: 103,
+        columnNumber: 11
+      }, undefined)]
+    }, void 0, true, {
+      fileName: _jsxFileName,
+      lineNumber: 56,
+      columnNumber: 7
+    }, undefined)]
+  }, void 0, true, {
+    fileName: _jsxFileName,
+    lineNumber: 54,
+    columnNumber: 5
+  }, undefined);
+};
+
+_s(Skillset, "OD7bBpZva5O2jO+Puf00hKivP7c=");
+
+_c = Skillset;
+/* harmony default export */ __webpack_exports__["default"] = (Skillset);
+
+var _c;
+
+__webpack_require__.$Refresh$.register(_c, "Skillset");
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/component/Three.js":
+/*!********************************!*\
+  !*** ./src/component/Three.js ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Timeline__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Timeline */ "./src/component/Timeline.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__);
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+var _jsxFileName = "C:\\Users\\bhavya\\Desktop\\Webportfolio\\bhavyashukla\\src\\component\\Three.js";
+
+
+
+
+const Three = ({
+  isDark
+}) => {
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+      className: isDark ? "container3" : "container3 white",
+      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+        className: isDark ? "" : "twinkling2",
+        children: " "
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 10,
+        columnNumber: 13
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("h1", {
+        className: isDark ? "Exp change" : "Exp",
+        children: "Experience"
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 12,
+        columnNumber: 17
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])(_Timeline__WEBPACK_IMPORTED_MODULE_1__["default"], {
+        isDark: isDark,
+        className: "Tline"
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 13,
+        columnNumber: 15
+      }, undefined)]
+    }, void 0, true, {
+      fileName: _jsxFileName,
+      lineNumber: 7,
+      columnNumber: 13
+    }, undefined)
+  }, void 0, false, {
+    fileName: _jsxFileName,
+    lineNumber: 6,
+    columnNumber: 9
+  }, undefined);
+};
+
+_c = Three;
+/* harmony default export */ __webpack_exports__["default"] = (Three);
+
+var _c;
+
+__webpack_require__.$Refresh$.register(_c, "Three");
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/component/Timeline.js":
+/*!***********************************!*\
+  !*** ./src/component/Timeline.js ***!
+  \***********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_vertical_timeline_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-vertical-timeline-component */ "./node_modules/react-vertical-timeline-component/dist-es6/index.js");
+/* harmony import */ var react_vertical_timeline_component__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_vertical_timeline_component__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_vertical_timeline_component_style_min_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-vertical-timeline-component/style.min.css */ "./node_modules/react-vertical-timeline-component/style.min.css");
+/* harmony import */ var react_vertical_timeline_component_style_min_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_vertical_timeline_component_style_min_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_icons_fa__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-icons/fa */ "./node_modules/react-icons/fa/index.esm.js");
+/* harmony import */ var react_icons_md__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-icons/md */ "./node_modules/react-icons/md/index.esm.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__);
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+var _jsxFileName = "C:\\Users\\bhavya\\Desktop\\Webportfolio\\bhavyashukla\\src\\component\\Timeline.js";
+
+
+
+
+
+
+
+
+const Timeline = ({
+  className,
+  isDark
+}) => {
+  let techskills1 = ["Python", " Flask", "Django", "Apache Spark", "Cassandra", "ReactJS", "SQL", "Restful Services", "Linux command line", "Json"];
+  const listItems1 = techskills1.map(techskills1 => /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("li", {
+    className: isDark ? "mck" : "mck orgk",
+    children: techskills1
+  }, techskills1, false, {
+    fileName: _jsxFileName,
+    lineNumber: 25,
+    columnNumber: 5
+  }, undefined));
+  let techskills2 = ["Python", "Flask", "ReactJS", "Javascript", "Node.js", "jQuery", "Mysql", "Wordpress", "Magento"];
+  const listItems2 = techskills2.map(techskills2 => /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("li", {
+    className: isDark ? "mck" : "mck orgk",
+    children: techskills2
+  }, techskills2, false, {
+    fileName: _jsxFileName,
+    lineNumber: 40,
+    columnNumber: 5
+  }, undefined));
+  let techskills3 = ["Javascript", "PHP", "SQL", "Magento", "Wordpress", "Shopify"];
+  const listItems3 = techskills3.map(techskills3 => /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("li", {
+    className: isDark ? "mck" : "mck orgk",
+    children: techskills3
+  }, techskills3, false, {
+    fileName: _jsxFileName,
+    lineNumber: 47,
+    columnNumber: 5
+  }, undefined));
+  let techskills4 = ["Apache Spark", "Hadoop", "Apache kafka", "Apache Cassandra", "Docker", "Kubernetes", "Google App Engine", "Google Cloud Platform", "Tableau", "Power BI", "Weka", "Python", "R", "Java"];
+  const listItems4 = techskills4.map(techskills4 => /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("li", {
+    className: isDark ? "mck" : "mck orgk",
+    children: techskills4
+  }, techskills4, false, {
+    fileName: _jsxFileName,
+    lineNumber: 53,
+    columnNumber: 5
+  }, undefined));
+  const tag = {
+    padding: "0 7px",
+    background: "rgb(1, 173, 159)",
+    borderRadius: "1em",
+    width: "fit-content",
+    color: "white"
+  };
+  const tag2 = {
+    padding: "0 7px",
+    background: "linear-gradient(to right, rgba(0,0, 0, 1), rgba(50,50,50, 0.9))",
+    borderRadius: "1em",
+    width: "fit-content",
+    color: "white"
+  };
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("div", {
+    className: className,
+    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])(react_vertical_timeline_component__WEBPACK_IMPORTED_MODULE_1__["VerticalTimeline"], {
+      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])(react_vertical_timeline_component__WEBPACK_IMPORTED_MODULE_1__["VerticalTimelineElement"], {
+        className: "vertical-timeline-element--education",
+        iconStyle: {
+          background: isDark ? "linear-gradient(to right, rgb(1, 173, 159), rgba(202, 243, 248, 0.4))" : "#4d4d4d",
+          color: "#fff"
+        },
+        icon: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])(react_icons_fa__WEBPACK_IMPORTED_MODULE_3__["FaUniversity"], {}, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 75,
+          columnNumber: 17
+        }, undefined),
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("h5", {
+          className: "vertical-timeline-element-title",
+          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("div", {
+            style: isDark ? tag : tag2,
+            children: "Griffith College Dublin"
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 78,
+            columnNumber: 13
+          }, undefined)
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 77,
+          columnNumber: 11
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("h4", {
+          style: {
+            color: "black",
+            marginBottom: "1em"
+          },
+          children: "Master's In Big Data Manangement And Analytics"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 80,
+          columnNumber: 11
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("h5", {
+          className: "vertical-timeline-element-subtitle",
+          children: listItems4
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 81,
+          columnNumber: 11
+        }, undefined)]
+      }, void 0, true, {
+        fileName: _jsxFileName,
+        lineNumber: 72,
+        columnNumber: 7
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])(react_vertical_timeline_component__WEBPACK_IMPORTED_MODULE_1__["VerticalTimelineElement"], {
+        className: "vertical-timeline-element--education",
+        iconStyle: {
+          background: isDark ? "linear-gradient(to right, rgb(1, 173, 159), rgba(202, 243, 248, 0.4))" : "#4d4d4d",
+          color: "#fff"
+        },
+        icon: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])(react_icons_md__WEBPACK_IMPORTED_MODULE_4__["MdWork"], {}, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 89,
+          columnNumber: 17
+        }, undefined),
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("h5", {
+          className: "vertical-timeline-element-title",
+          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("div", {
+            style: isDark ? tag : tag2,
+            children: "BlackCurrant Apps"
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 92,
+            columnNumber: 13
+          }, undefined)
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 91,
+          columnNumber: 11
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("h4", {
+          style: {
+            color: "black",
+            marginBottom: "1em"
+          },
+          children: "Full-Stack Developer"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 94,
+          columnNumber: 11
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("h5", {
+          className: "vertical-timeline-element-subtitle",
+          children: listItems1
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 95,
+          columnNumber: 11
+        }, undefined)]
+      }, void 0, true, {
+        fileName: _jsxFileName,
+        lineNumber: 86,
+        columnNumber: 9
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])(react_vertical_timeline_component__WEBPACK_IMPORTED_MODULE_1__["VerticalTimelineElement"], {
+        className: "vertical-timeline-element--education",
+        iconStyle: {
+          background: isDark ? "linear-gradient(to right, rgb(1, 173, 159), rgba(202, 243, 248, 0.4))" : "#4d4d4d",
+          color: "#fff"
+        },
+        icon: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])(react_icons_md__WEBPACK_IMPORTED_MODULE_4__["MdWork"], {}, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 100,
+          columnNumber: 17
+        }, undefined),
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("h5", {
+          className: "vertical-timeline-element-title",
+          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("div", {
+            style: isDark ? tag : tag2,
+            children: "Geekabyte"
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 103,
+            columnNumber: 13
+          }, undefined)
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 102,
+          columnNumber: 11
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("h4", {
+          style: {
+            color: "black",
+            marginBottom: "1em"
+          },
+          children: "Front-end Developer"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 105,
+          columnNumber: 11
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("h5", {
+          className: "vertical-timeline-element-subtitle",
+          children: listItems2
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 106,
+          columnNumber: 11
+        }, undefined)]
+      }, void 0, true, {
+        fileName: _jsxFileName,
+        lineNumber: 97,
+        columnNumber: 9
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])(react_vertical_timeline_component__WEBPACK_IMPORTED_MODULE_1__["VerticalTimelineElement"], {
+        className: "vertical-timeline-element--education",
+        iconStyle: {
+          background: isDark ? "linear-gradient(to right, rgb(1, 173, 159), rgba(202, 243, 248, 0.4))" : "#4d4d4d",
+          color: "#fff"
+        },
+        icon: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])(react_icons_md__WEBPACK_IMPORTED_MODULE_4__["MdWork"], {}, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 111,
+          columnNumber: 17
+        }, undefined),
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("h5", {
+          className: "vertical-timeline-element-title",
+          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("div", {
+            style: isDark ? tag : tag2,
+            children: "WeDesignCode"
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 114,
+            columnNumber: 13
+          }, undefined)
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 113,
+          columnNumber: 11
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("h4", {
+          style: {
+            color: "black",
+            marginBottom: "1em"
+          },
+          children: "Web Developer"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 116,
+          columnNumber: 11
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("h5", {
+          className: "vertical-timeline-element-subtitle",
+          children: listItems3
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 117,
+          columnNumber: 11
+        }, undefined)]
+      }, void 0, true, {
+        fileName: _jsxFileName,
+        lineNumber: 108,
+        columnNumber: 9
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])(react_vertical_timeline_component__WEBPACK_IMPORTED_MODULE_1__["VerticalTimelineElement"], {
+        className: "vertical-timeline-element--education",
+        iconStyle: {
+          background: isDark ? "linear-gradient(to right, rgb(1, 173, 159), rgba(202, 243, 248, 0.4))" : "#4d4d4d",
+          color: "#fff"
+        },
+        icon: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])(react_icons_fa__WEBPACK_IMPORTED_MODULE_3__["FaUniversity"], {}, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 124,
+          columnNumber: 17
+        }, undefined),
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("h5", {
+          className: "vertical-timeline-element-title",
+          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("div", {
+            style: isDark ? tag : tag2,
+            children: "Mumbai University"
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 127,
+            columnNumber: 13
+          }, undefined)
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 126,
+          columnNumber: 11
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("h4", {
+          style: {
+            color: "black",
+            marginBottom: "1em"
+          },
+          children: "Bachelor's In Computer Engineering"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 129,
+          columnNumber: 11
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("h5", {
+          className: "vertical-timeline-element-subtitle",
+          children: listItems3
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 130,
+          columnNumber: 11
+        }, undefined)]
+      }, void 0, true, {
+        fileName: _jsxFileName,
+        lineNumber: 121,
+        columnNumber: 9
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])(react_vertical_timeline_component__WEBPACK_IMPORTED_MODULE_1__["VerticalTimelineElement"], {
+        iconStyle: {
+          background: isDark ? "linear-gradient(to right, rgb(1, 173, 159), rgba(202, 243, 248, 0.4))" : "#4d4d4d",
+          color: "#fff"
+        },
+        icon: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])(react_icons_fa__WEBPACK_IMPORTED_MODULE_3__["FaStar"], {}, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 135,
+          columnNumber: 17
+        }, undefined)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 133,
+        columnNumber: 9
+      }, undefined)]
+    }, void 0, true, {
+      fileName: _jsxFileName,
+      lineNumber: 71,
+      columnNumber: 7
+    }, undefined)
+  }, void 0, false, {
+    fileName: _jsxFileName,
+    lineNumber: 70,
+    columnNumber: 5
+  }, undefined);
+};
+
+_c = Timeline;
+/* harmony default export */ __webpack_exports__["default"] = (Timeline);
+
+var _c;
+
+__webpack_require__.$Refresh$.register(_c, "Timeline");
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/component/Two.js":
+/*!******************************!*\
+  !*** ./src/component/Two.js ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Skillset__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Skillset */ "./src/component/Skillset.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__);
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+var _jsxFileName = "C:\\Users\\bhavya\\Desktop\\Webportfolio\\bhavyashukla\\src\\component\\Two.js";
+
+
+
+
+const Two = ({
+  isDark
+}) => {
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+      className: isDark ? "container2" : "container2 org",
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])(_Skillset__WEBPACK_IMPORTED_MODULE_1__["default"], {
+        isDark: isDark,
+        className: "skillset"
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 12,
+        columnNumber: 17
+      }, undefined)
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 9,
+      columnNumber: 13
+    }, undefined)
+  }, void 0, false, {
+    fileName: _jsxFileName,
+    lineNumber: 8,
+    columnNumber: 9
+  }, undefined);
+};
+
+_c = Two;
+/* harmony default export */ __webpack_exports__["default"] = (Two);
+
+var _c;
+
+__webpack_require__.$Refresh$.register(_c, "Two");
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/component/images/Asset1.svg":
+/*!*****************************************!*\
+  !*** ./src/component/images/Asset1.svg ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "static/media/Asset1.451f4880.svg");
+
+/***/ }),
+
+/***/ "./src/component/images/Asset2.svg":
+/*!*****************************************!*\
+  !*** ./src/component/images/Asset2.svg ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "static/media/Asset2.78ca832c.svg");
+
+/***/ }),
+
+/***/ "./src/component/images/computer.jpg":
+/*!*******************************************!*\
+  !*** ./src/component/images/computer.jpg ***!
+  \*******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "static/media/computer.22ef5f53.jpg");
+
+/***/ }),
+
+/***/ "./src/component/images/fog-1.png":
+/*!****************************************!*\
+  !*** ./src/component/images/fog-1.png ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "static/media/fog-1.f941d934.png");
+
+/***/ }),
+
+/***/ "./src/component/images/fog-2.png":
+/*!****************************************!*\
+  !*** ./src/component/images/fog-2.png ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "static/media/fog-2.8aeda6af.png");
+
+/***/ }),
+
+/***/ "./src/component/images/germany.png":
+/*!******************************************!*\
+  !*** ./src/component/images/germany.png ***!
+  \******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN1wAADdcBQiibeAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAiUSURBVHic7dmhTQAwAETRlhSDxiEZggUYHcMKOBiCBFW2aMV/b4KTP7m59x4AQMvD7QEAwHkCAACCBAAABAkAAAgSAAAQJAAAIEgAAECQAACAIAEAAEECAACCBAAABAkAAAgSAAAQJAAAIEgAAECQAACAIAEAAEECAACCBAAABAkAAAgSAAAQJAAAIEgAAECQAACAIAEAAEECAACCBAAABAkAAAgSAAAQJAAAIEgAAECQAACAIAEAAEECAACCBAAABAkAAAgSAAAQJAAAIEgAAECQAACAIAEAAEECAACCBAAABAkAAAgSAAAQJAAAIEgAAECQAACAIAEAAEECAACCBAAABAkAAAgSAAAQJAAAIEgAAECQAACAIAEAAEECAACCBAAABAkAAAgSAAAQJAAAIEgAAECQAACAIAEAAEECAACCBAAABAkAAAgSAAAQJAAAIEgAAECQAACAIAEAAEECAACCBAAABAkAAAgSAAAQJAAAIEgAAECQAACAIAEAAEECAACCBAAABAkAAAiab+Pp+/YIAOCsOcbYt0cAAGe5AAAgSAAAQJAAAIAgAQAAQQIAAIIEAAAECQAACBIAABAkAAAgSAAAQJAAAIAgAQAAQQIAAIIEAAAECQAACBIAABAkAAAgSAAAQJAAAIAgAQAAQQIAAIIEAAAECQAACBIAABAkAAAgSAAAQJAAAIAgAQAAQQIAAIIEAAAECQAACBIAABAkAAAgSAAAQJAAAIAgAQAAQQIAAIIEAAAECQAACBIAABAkAAAgSAAAQJAAAIAgAQAAQQIAAIIEAAAECQAACBIAABAkAAAgSAAAQJAAAIAgAQAAQQIAAIIEAAAECQAACBIAABAkAAAgSAAAQJAAAIAgAQAAQQIAAIIEAAAECQAACBIAABAkAAAgSAAAQJAAAIAgAQAAQQIAAIIEAAAECQAACBIAABAkAAAgSAAAQJAAAIAgAQAAQQIAAIIEAAAECQAACBIAABAkAAAgSAAAQJAAAIAgAQAAQQIAAIIEAAAECQAACBIAABAkAAAgSAAAQJAAAIAgAQAAQQIAAIIEAAAECQAACBIAABAkAAAgSAAAQJAAAIAgAQAAQQIAAIIEAAAECQAACBIAABAkAAAgSAAAQJAAAIAgAQAAQQIAAIIEAAAECQAACBIAABC0Psbr7Q0AwGHreazbGwCAw1wAABAkAAAgSAAAQJAAAIAgAQAAQQIAAIIEAAAECQAACBIAABAkAAAgSAAAQJAAAIAgAQAAQQIAAIIEAAAECQAACBIAABAkAAAgSAAAQJAAAIAgAQAAQQIAAIIEAAAECQAACBIAABAkAAAgSAAAQJAAAIAgAQAAQQIAAIIEAAAECQAACBIAABAkAAAgSAAAQJAAAIAgAQAAQQIAAIIEAAAECQAACBIAABAkAAAgSAAAQJAAAIAgAQAAQQIAAIIEAAAECQAACBIAABAkAAAgSAAAQJAAAIAgAQAAQQIAAIIEAAAECQAACBIAABAkAAAgSAAAQJAAAIAgAQAAQQIAAIIEAAAECQAACBIAABAkAAAgSAAAQJAAAIAgAQAAQQIAAIIEAAAECQAACBIAABAkAAAgSAAAQJAAAIAgAQAAQQIAAIIEAAAECQAACBIAABAkAAAgSAAAQJAAAIAgAQAAQQIAAIIEAAAECQAACBIAABAkAAAgSAAAQJAAAIAgAQAAQQIAAIIEAAAECQAACBIAABAkAAAgSAAAQJAAAIAgAQAAQQIAAIIEAAAECQAACBIAABAkAAAgSAAAQJAAAIAgAQAAQQIAAIIEAAAErceXdXsDAHDY3F/v+/YIAOAsFwAABAkAAAgSAAAQJAAAIEgAAECQAACAIAEAAEECAACCBAAABAkAAAgSAAAQJAAAIEgAAECQAACAIAEAAEECAACCBAAABAkAAAgSAAAQJAAAIEgAAECQAACAIAEAAEECAACCBAAABAkAAAgSAAAQJAAAIEgAAECQAACAIAEAAEECAACCBAAABAkAAAgSAAAQJAAAIEgAAECQAACAIAEAAEECAACCBAAABAkAAAgSAAAQJAAAIEgAAECQAACAIAEAAEECAACCBAAABAkAAAgSAAAQJAAAIEgAAECQAACAIAEAAEECAACCBAAABAkAAAgSAAAQJAAAIEgAAECQAACAIAEAAEECAACCBAAABAkAAAgSAAAQJAAAIEgAAECQAACAIAEAAEECAACCBAAABAkAAAgSAAAQJAAAIEgAAECQAACAIAEAAEECAACCBAAABAkAAAgSAAAQJAAAIEgAAECQAACAIAEAAEECAACCBAAABAkAAAgSAAAQJAAAIEgAAECQAACAIAEAAEECAACCBAAABAkAAAgSAAAQJAAAIEgAAECQAACAIAEAAEECAACCBAAABAkAAAgSAAAQJAAAIEgAAECQAACAIAEAAEECAACC1u/n38/tEQDAWXPvfXsDAHCYCwAAggQAAAQJAAAIEgAAECQAACBIAABAkAAAgCABAABBAgAAggQAAAQJAAAIEgAAECQAACBIAABAkAAAgCABAABBAgAAggQAAAQJAAAIEgAAECQAACBIAABAkAAAgCABAABBAgAAggQAAAQJAAAIEgAAECQAACBIAABAkAAAgCABAABBAgAAggQAAAQJAAAIEgAAECQAACBIAABAkAAAgCABAABBAgAAggQAAAQJAAAIEgAAECQAACBIAABAkAAAgCABAABBAgAAggQAAAQJAAAIEgAAECQAACBIAABAkAAAgCABAABBAgAAggQAAAQJAAAIEgAAECQAACBIAABAkAAAgCABAABBAgAAggQAAAQJAAAIEgAAECQAACBIAABAkAAAgCABAABBAgAAggQAAAQJAAAIEgAAECQAACBIAABAkAAAgCABAABBAgAAggQAAAQJAAAIEgAAEPQPw3IT+CUEFuoAAAAASUVORK5CYII=");
+
+/***/ }),
+
+/***/ "./src/component/images/india.png":
+/*!****************************************!*\
+  !*** ./src/component/images/india.png ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN1wAADdcBQiibeAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAABl3SURBVHic7d19jN11nejxzzxP22HazrR22rGlaKHAYqHtclklC64aii0PieRGXRUuhii5C+ImFzCbhZuFzUb0JoplN2iIXNBdNffiDQ/l6S6uYljD1bZQWUqxSmkd2lpm+sB02pnpzNw/qmhtO53p+Z1zpv28Xv9M5/Sc3/mek7S/9+/p+6sZGRkJACCX2moPAACoPAEAAAkJAABISAAAQEICAAASEgAAkJAAAICEBAAAJCQAACAhAQAACQkAAEhIAABAQgIAABISAACQkAAAgIQEAAAkJAAAICEBAAAJCQAASEgAAEBCAgAAEhIAAJCQAACAhAQAACQkAAAgIQEAAAkJAABISAAAQEICAAASEgAAkJAAAICEBAAAJCQAACAhAQAACQkAAEhIAABAQgIAABISAACQkAAAgIQEAAAkJAAAICEBAAAJCQAASEgAAEBCAgAAEhIAAJCQAACAhAQAACQkAAAgIQEAAAkJAABISAAAQEICAAASEgAAkJAAAICEBAAAJCQAACAhAQAACQkAAEhIAABAQgIAABISAACQkAAAgIQEAAAkJAAAICEBAAAJCQAASEgAAEBCAgAAEhIAAJCQAACAhAQAACQkAAAgIQEAAAkJAABISAAAQEICAAASEgAAkJAAAICEBAAAJCQAACAhAQAACQkAAEhIAABAQvUH/s+K16s9CACgsurrf/OTedUeBABQWQ4BAEBCAgAAEhIAAJCQAACAhAQAACQkAAAgIQEAAAkJAABISAAAQEICAAASEgAAkJAAAICEBAAAJCQAACAhAQAACQkAAEhIAABAQgIAABISAACQkAAAgIQEAAAkJAAAICEBAAAJCQAASEgAAEBCAgAAEhIAAJCQAACAhAQAACQkAAAgIQEAAAkJAABISAAAQEICAAASEgAAkJAAAICEBAAAJCQAACAhAQAACQkAAEhIAABAQgIAABISAACQkAAAgIQEAAAkJAAAICEBAAAJCQAASEgAAEBCAgAAEhIAAJCQAACAhAQAACQkAAAgIQEAAAkJAABISAAAQEICAAAS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G5d1xo2XdrqxD0xgAgBOANt3D8RdD2+OB5/dHgcm6PWC9bU1cfVFs+LWK+fFrKmN1R4OcAwCAE4gG7ftizseej0eWf1mtYdyiCuWzojbrzo1FnRMqvZQgDESAHAC+ukv34r7f7gtnnqxJ7p7q3OOQHtLQyw7ty2ufX9HnP/uU6oyBuD4CQA4gQ0Nj8TzG/fEqrU9sWpNd2zaUd45BObPbI4VS9pjxeK2uGBBa9RlvpkBnOAEAJxE1nf1xWNruuPxtd2xdlNvIctcPL8lli9uj8uWtJvEB04iAgBOUvsHhmPrroHYtmvgtz/7442df/j7QEREdExrjNnTGqNjWmPMmd4YHdOa3v599rTGaG40XQicjAQAACQk7QEgIQEAAAkJAABISAAAQEICAAASEgAAkJAAAICEBAAAJCQAACAhAQAACQkAAEiofte+31R7DABAhdXc+M8fcjMgAEjGIQAASEgAAEBCAgAAEhIAAJCQAACAhAQAACQkAAAgIQEAAAkJAABISAAAQEICAAASEgAAkJAAAICEBAAAJCQAACAhAQAACQkAAEhIAABAQgIAABISAACQkAAAgIQEAAAkJAAAICEBAAAJCQAASEgAAEBCAgAAEhIAAJCQAACAhAQAACQkAAAgIQEAAAkJAABISAAAQEICAAASEgAAkJAAAICEBAAAJCQAACAhAQAACQkAAEhIAABAQgIAABISAACQkAAAgIQEAAAkJAAAICEBAAAJCQAASEgAAEBCAgAAEhIAAJCQAACAhAQAACQkAAAgIQEAAAkJAABISAAAQEICAAASEgAAkJAAAICEBAAAJCQAACAhAQAACQkAAEhIAABAQgIAABISAACQkAAAgIQEAAAkJAAAICEBAAAJCQAASEgAAEBCAgAAEhIAAJCQAACAhAQAACQkAAAgIQEAAAkJAABISAAAQEICAAASEgAAkJAAAICEBAAAJCQAACAhAQAACQkAAEhIAABAQgIAABISAACQkAAAgIQEAAAkJAAAICEBAAAJCQAASEgAAEBCAgAAEhIAAJCQAACAhAQAACQkAAAgIQEAAAkJAABISAAAQEICAAASEgAAkJAAAICEBAAAJCQAACAhAQAACdWf1n7O5moPAgCorJqRkZFqjwEAqDCHAAAgIQEAAAkJAABISAAAQEICAAASEgAAkJAAAICEBAAAJCQAACAhAQAACQkAAEhIAABAQgIAABISAACQkAAAgIQEAAAkJAAAICEBAAAJCQAASEgAAEBCAgAAEhIAAJCQAACAhAQAACQkAAAgIQEAAAkJAABISAAAQEICAAASEgAAkJAAAICEBAAAJCQAACAhAQAACQkAAEhIAABAQgIAABISAACQkAAAgIQEAAAkJAAAICEBAAAJCQAASEgAAEBCAgAAEhIAAJCQAACAhAQAACQkAAAgIQEAAAkJAABISAAAQEICAAASEgAAkJAAAICEBAAAJCQAACAhAQAACQkAAEhIAABAQgIAABISAACQkAAAgIQEAAAkJAAAICEBAAAJCQAASEgAAEBCAgAAEhIAAJCQAACAhAQAACQkAAAgIQEAAAkJAABISAAAQEICAAASEgAAkJAAAICEBAAAJCQAACAhAQAACQkAAEhIAABAQv8f9MrcMU48JEoAAAAASUVORK5CYII=");
+
+/***/ }),
+
+/***/ "./src/component/images/united-kingdom.png":
+/*!*************************************************!*\
+  !*** ./src/component/images/united-kingdom.png ***!
+  \*************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "static/media/united-kingdom.b67ba79a.png");
+
+/***/ }),
+
+/***/ "./src/index.css":
+/*!***********************!*\
+  !*** ./src/index.css ***!
+  \***********************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+if (true) {
+  if (!content.locals || module.hot.invalidate) {
+    var isEqualLocals = function isEqualLocals(a, b, isNamedExport) {
+  if (!a && b || a && !b) {
+    return false;
+  }
+
+  var p;
+
+  for (p in a) {
+    if (isNamedExport && p === 'default') {
+      // eslint-disable-next-line no-continue
+      continue;
+    }
+
+    if (a[p] !== b[p]) {
+      return false;
+    }
+  }
+
+  for (p in b) {
+    if (isNamedExport && p === 'default') {
+      // eslint-disable-next-line no-continue
+      continue;
+    }
+
+    if (!a[p]) {
+      return false;
+    }
+  }
+
+  return true;
+};
+    var oldLocals = content.locals;
+
+    module.hot.accept(
+      /*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css",
+      function () {
+        content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css");
+
+              content = content.__esModule ? content.default : content;
+
+              if (typeof content === 'string') {
+                content = [[module.i, content, '']];
+              }
+
+              if (!isEqualLocals(oldLocals, content.locals)) {
+                module.hot.invalidate();
+
+                return;
+              }
+
+              oldLocals = content.locals;
+
+              update(content);
+      }
+    )
+  }
+
+  module.hot.dispose(function() {
+    update();
+  });
+}
+
+module.exports = content.locals || {};
+
+/***/ }),
+
+/***/ "./src/index.js":
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./index.css */ "./src/index.css");
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_index_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./App */ "./src/App.js");
+/* harmony import */ var _reportWebVitals__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./reportWebVitals */ "./src/reportWebVitals.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__);
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+var _jsxFileName = "C:\\Users\\bhavya\\Desktop\\Webportfolio\\bhavyashukla\\src\\index.js";
+
+
+
+
+
+
+react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])(react__WEBPACK_IMPORTED_MODULE_0___default.a.StrictMode, {
+  children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])(_App__WEBPACK_IMPORTED_MODULE_3__["default"], {}, void 0, false, {
+    fileName: _jsxFileName,
+    lineNumber: 9,
+    columnNumber: 5
+  }, undefined)
+}, void 0, false, {
+  fileName: _jsxFileName,
+  lineNumber: 8,
+  columnNumber: 3
+}, undefined), document.getElementById('root')); // If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+
+Object(_reportWebVitals__WEBPACK_IMPORTED_MODULE_4__["default"])();
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/reportWebVitals.js":
+/*!********************************!*\
+  !*** ./src/reportWebVitals.js ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+const reportWebVitals = onPerfEntry => {
+  if (onPerfEntry && onPerfEntry instanceof Function) {
+    __webpack_require__.e(/*! import() */ 0).then(__webpack_require__.bind(null, /*! web-vitals */ "./node_modules/web-vitals/dist/web-vitals.js")).then(({
+      getCLS,
+      getFID,
+      getFCP,
+      getLCP,
+      getTTFB
+    }) => {
+      getCLS(onPerfEntry);
+      getFID(onPerfEntry);
+      getFCP(onPerfEntry);
+      getLCP(onPerfEntry);
+      getTTFB(onPerfEntry);
+    });
+  }
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (reportWebVitals);
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ 1:
+/*!**********************************************************************************************************************************************************************************************!*\
+  !*** multi (webpack)/hot/dev-server.js ./node_modules/@pmmmwh/react-refresh-webpack-plugin/client/ReactRefreshEntry.js ./node_modules/react-dev-utils/webpackHotDevClient.js ./src/index.js ***!
+  \**********************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! C:\Users\bhavya\Desktop\Webportfolio\bhavyashukla\node_modules\webpack\hot\dev-server.js */"./node_modules/webpack/hot/dev-server.js");
+__webpack_require__(/*! C:\Users\bhavya\Desktop\Webportfolio\bhavyashukla\node_modules\@pmmmwh\react-refresh-webpack-plugin\client\ReactRefreshEntry.js */"./node_modules/@pmmmwh/react-refresh-webpack-plugin/client/ReactRefreshEntry.js");
+__webpack_require__(/*! C:\Users\bhavya\Desktop\Webportfolio\bhavyashukla\node_modules\react-dev-utils\webpackHotDevClient.js */"./node_modules/react-dev-utils/webpackHotDevClient.js");
+module.exports = __webpack_require__(/*! C:\Users\bhavya\Desktop\Webportfolio\bhavyashukla\src\index.js */"./src/index.js");
+
+
+/***/ })
+
+},[[1,"runtime-main","vendors~main"]]]);
+//# sourceMappingURL=main.chunk.js.map

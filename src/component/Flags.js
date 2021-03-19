@@ -1,6 +1,6 @@
 import React from 'react';
 import uk from './images/united-kingdom.png';
-import de from './images/germany.png';
+
 import ind from './images/india.png';
 
  const Flags = ({name,setName}) => {
@@ -24,13 +24,7 @@ import ind from './images/india.png';
        console.log(name)
     }
 
-    const de1=()=>{
-        setName(
-            name="Бхавиа Схукла"
-        )
-        
-        console.log(name)
-     }
+   
     return (
         <div>
             <div className="mags" >

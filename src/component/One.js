@@ -4,7 +4,7 @@ import computer from "./images/computer.jpg";
 import Flags from "./Flags";
 import Bhavya from "./Bhavya";
 import Iconset from "./Iconset";
-
+import {Link} from "react-router-dom";
 
 const One = ({isDark,setIsDark}) => {
   const inp = useRef(null);

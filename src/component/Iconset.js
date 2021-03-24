@@ -7,12 +7,13 @@ import { FaGithubSquare } from "react-icons/fa";
     return (
         
             <div className="Iconset" >
-        <FaTwitterSquare className="twitter" />
-        <FaLinkedin className="linkedin" />
-        <FaInstagramSquare className="instagram" />
-        <FaGithubSquare className="github" />
+          <a target="_blank" style={{color: "inherit"}} href="https://twitter.com/bhavya_shukla_">  <FaTwitterSquare className="twitter" /> </a>
+          <a target="_blank" style={{color: "inherit"}}  href="https://linkedin.com/in/bhavyashukla/" > <FaLinkedin  className="linkedin" /> </a>
+          <a target="_blank" style={{color: "inherit"}} href="https://www.instagram.com/bhavyashukla94/"> <FaInstagramSquare className="instagram" /> </a>
+          <a target="_blank" style={{color: "inherit"}} href="https://github.com/BhavyaShukla/">  <FaGithubSquare  className="github" /> </a>
+        
       </div>
-      
+ 
     )
 }
 export default Iconset

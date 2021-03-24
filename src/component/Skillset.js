@@ -52,7 +52,7 @@ const Skillset = ({ isDark,className }) => {
   };
   return (
     <div className={className}>
-      <h2  data-aos="fade-up" className="skillhead">All Skills</h2>
+      <h2  data-aos="fade-up" className="skillhead">Technical Skills</h2>
       <div className="allskills">
    
           <h4  data-aos="flip-left" className="skh1">Programming Languages: </h4>

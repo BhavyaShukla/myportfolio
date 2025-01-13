@@ -1,115 +1,122 @@
-import React,{useEffect} from "react";
-import 'aos/dist/aos.css';
-import Aos from 'aos'
-import { FaPython } from "react-icons/fa";
-import { FaJava } from "react-icons/fa";
-import { DiJavascript1 } from "react-icons/di";
-import { FaPhp } from "react-icons/fa";
-import { FaAngular } from "react-icons/fa";
-import { FaReact } from "react-icons/fa";
-import { DiDjango } from "react-icons/di";
-import { FaLaravel } from "react-icons/fa";
-import { SiFlask } from "react-icons/si";
-import { FaBootstrap } from "react-icons/fa";
-import { SiMaterialUi } from "react-icons/si";
+import React, { useEffect } from "react";
+import "aos/dist/aos.css";
+import Aos from "aos";
 
-import { SiApachekafka } from "react-icons/si";
-import { GrHadoop } from "react-icons/gr";
-import { SiApachespark } from "react-icons/si";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faHtml5,
+  faGit,
+} from "@fortawesome/free-brands-svg-icons";
+import {
+  faDatabase,
+  faServer,
+  faCloud,
+  faCodeBranch,
+  faBug,
+  faCogs,
+  faTerminal,
+  faClipboardCheck,
+} from "@fortawesome/free-solid-svg-icons";
 
 
-import { SiMysql } from "react-icons/si";
-import { SiPostgresql } from "react-icons/si";
-import { DiMsqlServer } from "react-icons/di";
-import { DiSqllite } from "react-icons/di";
-import { SiCassandra } from "react-icons/si";
-
-import { DiPhotoshop } from "react-icons/di";
-import { DiIllustrator } from "react-icons/di";
-import { FaFigma } from "react-icons/fa";
-import { SiTableau } from "react-icons/si";
-import { SiPowerbi } from "react-icons/si";
-const Skillset = ({ isDark,className }) => {
+const Skillset = ({ isDark, className }) => {
   useEffect(() => {
-    Aos.init({duration:500});
- 
-}, []);
+    Aos.init({ duration: 500 });
+  }, []);
   const sty = {
     height: "3em",
     width: "3em",
     margin: "0 0.2em",
-    color:"white",
+    color: "white",
     filter: "drop-shadow( 1px 1px 0.5px rgb(0, 0, 0 ))",
-    borderRadius:"1em",
-  
+    borderRadius: "1em",
   };
   const sty2 = {
     height: "3em",
     width: "3em",
     margin: "0 0.2em",
-    color:"black",
-   
+    color: "black",
   };
+
+  const skills = [
+    {
+      category: "Web Development",
+      icon: faHtml5,
+      details:
+        "Proficient in HTML5, CSS3, JavaScript, and modern frontend frameworks: ReactJS, Angular, Vue.js",
+    },
+    {
+      category: "Full Stack Development",
+      icon: faServer,
+      details:
+        "Skilled in backend frameworks: Symfony PHP, Laravel, Node.js, Express, Flask, FastAPI",
+    },
+    {
+      category: "Database Management",
+      icon: faDatabase,
+      details:
+        "Experienced in SQL (MySQL, PostgreSQL) and NoSQL (MongoDB, Redis) database design and optimization",
+    },
+    {
+      category: "Cloud Computing",
+      icon: faCloud,
+      details:
+        "Competent in managing cloud infrastructure on AWS, Azure, and Google Cloud Platform (GCP) mostly in Azure AI, AWS Open Search",
+    },
+    {
+      category: "DevOps Practices",
+      icon: faCogs,
+      details:
+        "Proficient in implementing CI/CD pipelines using Jenkins, GitLab CI, GitHub Actions, Docker, and Kubernetes",
+    },
+    {
+      category: "Agile Methodologies",
+      icon: faClipboardCheck,
+      details:
+        "Strong understanding and application of Agile principles: Scrum, Kanban, JIRA",
+    },
+    {
+      category: "Testing and QA",
+      icon: faBug,
+      details:
+        "Experienced in writing unit, integration, and automation tests using Jest, PHPUnit, WebdriverIO, and Pytest",
+    },
+    {
+      category: "API Development",
+      icon: faCodeBranch,
+      details:
+        "Proficient in designing, developing, documenting, and testing RESTful APIs using Swagger and Postman",
+    },
+    {
+      category: "Version Control",
+      icon: faGit,
+      details:
+        "Experienced with Git, SVN, and proficient in branching strategies and collaborative development using GitHub and Bitbucket",
+    },
+    {
+      category: "Scripting and Automation",
+      icon: faTerminal,
+      details:
+        "Skilled in Python and Shell scripting for automation tasks and infrastructure management",
+    },
+  ];
+
   return (
     <div className={className}>
-      <h2  data-aos="fade-up" className="skillhead">Technical Skills</h2>
-      <div className="allskills">
-   
-          <h4  data-aos="flip-left" className="skh1">Programming Languages: </h4>
-          <h4  data-aos="flip-left"className="skh2">Framework: </h4>
-          <h4 data-aos="flip-left" className="skh3">Cloud:</h4>
-          <h4 data-aos="flip-left" className="skh4">Big Data: </h4>
-          <h4 data-aos="flip-left" className="skh5">Database:</h4>
-          <h4 data-aos="flip-left" className="skh6">Tools:</h4>
-
-          <div data-aos="zoom-out-down" className="sks1">
-          <FaPython className="iconeffects" style={isDark?sty2:sty} />
-          <FaJava className="iconeffects" style={isDark?sty2:sty}  />
-          <DiJavascript1 className="iconeffects"style={isDark?sty2:sty}  />
-          <FaPhp className="iconeffects" style={isDark?sty2:sty}  />
-          </div>
-
-    
-          <div data-aos="zoom-out-down" className="sks2">
-          <FaAngular className="iconeffects"style={isDark?sty2:sty}  />
-          <FaReact className="iconeffects" style={isDark?sty2:sty}  />
-          <DiDjango className="iconeffects" style={isDark?sty2:sty}  />
-          <FaLaravel className="iconeffects" style={isDark?sty2:sty} />
-          <SiFlask className="iconeffects" style={isDark?sty2:sty}  />
-          <FaBootstrap className="iconeffects" style={isDark?sty2:sty}  />
-          <SiMaterialUi className="iconeffects" style={isDark?sty2:sty}  />
-          </div>
-         
-          <div data-aos="zoom-out-down"  className="sks4">
-          <SiApachekafka className="iconeffects" style={isDark?sty2:sty}  />
-          <GrHadoop className="iconeffects" style={isDark?sty2:sty}  />
-          <SiApachespark className="iconeffects" style={isDark?sty2:sty}  />
-         
-          </div>
-          <div data-aos="zoom-out-down" className="sks5">
-          <SiMysql className="iconeffects" style={isDark?sty2:sty}  />
-          <SiPostgresql className="iconeffects" style={isDark?sty2:sty}  />
-          <DiMsqlServer className="iconeffects" style={isDark?sty2:sty}  />
-          <DiSqllite className="iconeffects" style={isDark?sty2:sty}  />
-          <SiCassandra className="iconeffects" style={isDark?sty2:sty}  />
-          </div>
-          <div data-aos="zoom-out-down" className="sks6">
-          <DiPhotoshop className="iconeffects" style={isDark?sty2:sty}  />
-          <DiIllustrator className="iconeffects" style={isDark?sty2:sty}  />
-          <FaFigma className="iconeffects" style={isDark?sty2:sty}  />
-          <SiTableau className="iconeffects" style={isDark?sty2:sty}  />
-          <SiPowerbi className="iconeffects" style={isDark?sty2:sty}  />
-          </div>
-          <div data-aos="zoom-out-down" className="sks3">
-          <h5 style={{padding:"2px 1em",margin:"2px 7px",background:isDark?"black":"rgb(77, 77, 77)",color:isDark?"rgb(255, 255, 255)":"white",borderRadius:"1em"}}>Google App Engine</h5>
-          <h5  style={{padding:"2px 1em",margin:"2px 7px",background:isDark?"black":"rgb(77, 77, 77)",color:isDark?"rgb(255, 255, 255)":"white",borderRadius:"1em"}}>Amazon Web Services</h5>
-          <h5 style={{padding:"2px 1em ",margin:"2px 7px",background:isDark?"black":"rgb(77, 77, 77)",color:isDark?"rgb(255, 255, 255)":"white",borderRadius:"1em"}} >Microsoft Azure</h5>
-          </div>
-
-         
-        </div>
-      </div>
- 
+      <h2 data-aos="fade-up" className="skillhead">
+        Technical Skills
+      </h2>
+      <ul className="skills-list">
+        {" "}
+        {skills.map((skill, index) => (
+          <li key={index} data-aos="zoom-out-up" className="skill-item">
+            {" "}
+            <FontAwesomeIcon icon={skill.icon} className="skill-icon" />{" "}
+            <strong>{skill.category}</strong>: {skill.details}{" "}
+          </li>
+        ))}{" "}
+      </ul>{" "}
+    </div>
   );
 };
 export default Skillset;

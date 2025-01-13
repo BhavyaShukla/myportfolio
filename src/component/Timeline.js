@@ -10,19 +10,38 @@ import { FaStar } from "react-icons/fa";
 import { MdWork } from "react-icons/md";
 const Timeline = ({ className, isDark}) => {
   let techskills1 = [
-    "Python",
-    " Flask",
-    "Django",
-    "Apache Spark",
-    "Cassandra",
-    "ReactJS",
-    "SQL",
-    "Restful Services",
-    "Linux command line",
-    "Json",
+    "Symfony PHP",
+    "FastAPI",
+    "Flask",
+    "Generative AI",
+    "Retrieval-augmented generation(RAG)",
+    "AWS Lambda",
+    "AWS Open Search",
+    "Azure AI",
+    "Azure Document Intelligence",
+    "Swagger Api Docs",
+    "Git workflow",
+    "React JS",
+    "Vue JS",
+    "PosgresSQL"
   ];
   const listItems1 = techskills1.map((techskills1) => (
     <li  className={isDark? "mck": "mck orgk"} key={techskills1}>{techskills1}</li>
+  ));
+
+  let techskills = [
+    "Angular",
+    "Python",
+    "Flask",
+    "AWS EC2",
+    "Node JS",
+    "SCRUM",
+    "AWS LAMBDA",
+    "Git workflow",
+    "React JS"
+  ];
+  const listItems2 = techskills.map((techskills) => (
+    <li  className={isDark? "mck": "mck orgk"} key={techskills}>{techskills}</li>
   ));
 
   let techskills2 = [
@@ -36,20 +55,20 @@ const Timeline = ({ className, isDark}) => {
     "Wordpress",
     "Magento",
   ];
-  const listItems2 = techskills2.map((techskills2) => (
+  const listItems4 = techskills2.map((techskills2) => (
     <li  className={isDark? "mck": "mck orgk"} key={techskills2}>{techskills2}</li>
   ));
 
   let techskills3 = [
     "Javascript", "PHP", "SQL" , "Magento" , "Wordpress", "Shopify"
   ];
-  const listItems3=techskills3.map((techskills3) => (
+  const listItems5=techskills3.map((techskills3) => (
     <li  className={isDark? "mck": "mck orgk"} key={techskills3}>{techskills3}</li>
   ));
   let techskills4 = [
     "Apache Spark", "Hadoop","Apache kafka","Apache Cassandra","Docker","Kubernetes", "Google App Engine" , "Google Cloud Platform" , "Tableau","Power BI", "Weka","Python","R","Java"
   ];
-  const listItems4=techskills4.map((techskills4) => (
+  const listItems3=techskills4.map((techskills4) => (
     <li className={isDark? "mck": "mck orgk"} key={techskills4}>{techskills4}</li>
   ));
   const tag = {
@@ -71,6 +90,28 @@ const Timeline = ({ className, isDark}) => {
       <VerticalTimeline>
       <VerticalTimelineElement
           className="vertical-timeline-element--education"
+          iconStyle={{ background: isDark?  "linear-gradient(to right, rgb(1, 173, 159), rgba(202, 243, 248, 0.4))":"#4d4d4d" , color: "#fff" }}
+          icon={<MdWork />}
+        >
+          <h5 className="vertical-timeline-element-title">
+            <div style={isDark? tag : tag2}>Learnosity</div>
+          </h5>
+          <h4 style={{color:"black", marginBottom: "1em" }}>Software Engineer</h4>
+          <h5 className="vertical-timeline-element-subtitle">{listItems1}</h5>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          iconStyle={{ background: isDark?  "linear-gradient(to right, rgb(1, 173, 159), rgba(202, 243, 248, 0.4))":"#4d4d4d" , color: "#fff" }}
+          icon={<MdWork />}
+        >
+          <h5 className="vertical-timeline-element-title">
+            <div style={isDark? tag : tag2}>Komeer</div>
+          </h5>
+          <h4 style={{color:"black", marginBottom: "1em" }}>Full-Stack Developer</h4>
+          <h5 className="vertical-timeline-element-subtitle">{listItems2}</h5>
+        </VerticalTimelineElement>
+      <VerticalTimelineElement
+          className="vertical-timeline-element--education"
           iconStyle={{background: isDark?  "linear-gradient(to right, rgb(1, 173, 159), rgba(202, 243, 248, 0.4))":"#4d4d4d", color: "#fff" }}
           icon={<FaUniversity />}
         >
@@ -78,21 +119,7 @@ const Timeline = ({ className, isDark}) => {
             <div style={isDark? tag : tag2}>Griffith College Dublin</div>
           </h5>
           <h4 style={{ color:"black", marginBottom: "1em" }}>Master's In Big Data Manangement And Analytics</h4>
-          <h5 className="vertical-timeline-element-subtitle">{listItems4}</h5>
-        </VerticalTimelineElement>
-
-
-
-        <VerticalTimelineElement
-          className="vertical-timeline-element--education"
-          iconStyle={{ background: isDark?  "linear-gradient(to right, rgb(1, 173, 159), rgba(202, 243, 248, 0.4))":"#4d4d4d" , color: "#fff" }}
-          icon={<MdWork />}
-        >
-          <h5 className="vertical-timeline-element-title">
-            <div style={isDark? tag : tag2}>BlackCurrant Apps</div>
-          </h5>
-          <h4 style={{color:"black", marginBottom: "1em" }}>Full-Stack Developer</h4>
-          <h5 className="vertical-timeline-element-subtitle">{listItems1}</h5>
+          <h5 className="vertical-timeline-element-subtitle">{listItems3}</h5>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
@@ -103,7 +130,7 @@ const Timeline = ({ className, isDark}) => {
             <div style={isDark? tag : tag2}>Geekabyte</div>
           </h5>
           <h4 style={{color:"black", marginBottom: "1em" }}>Front-end Developer</h4>
-          <h5 className="vertical-timeline-element-subtitle">{listItems2}</h5>
+          <h5 className="vertical-timeline-element-subtitle">{listItems4}</h5>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
@@ -114,7 +141,7 @@ const Timeline = ({ className, isDark}) => {
             <div style={isDark? tag : tag2}>WeDesignCode</div>
           </h5>
           <h4 style={{color:"black", marginBottom: "1em" }}>Web Developer</h4>
-          <h5 className="vertical-timeline-element-subtitle">{listItems3}</h5>
+          <h5 className="vertical-timeline-element-subtitle">{listItems5}</h5>
         </VerticalTimelineElement>
 
        
@@ -127,7 +154,7 @@ const Timeline = ({ className, isDark}) => {
             <div style={isDark? tag : tag2}>Mumbai University</div>
           </h5>
           <h4 style={{color:"black", marginBottom: "1em" }}>Bachelor's In Computer Engineering</h4>
-          <h5 className="vertical-timeline-element-subtitle">{listItems3}</h5>
+          <h5 className="vertical-timeline-element-subtitle">{listItems5}</h5>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement

@@ -194,7 +194,6 @@ h2 {
   position: absolute;
   background-color: rgba(255, 255, 255, 0.7);
   height: auto;
-  top: 18%;
   border-radius: 5%;
   margin: 0;
   padding: 0.6em;
@@ -202,6 +201,9 @@ h2 {
   color: rgb(56, 56, 56);
   opacity: 0;
   transition: 2s;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 30%;
 }
 
 .Bhav:hover h4 {
@@ -761,7 +763,6 @@ h2 {
     position: absolute;
     background-color: rgba(255, 255, 255, 0.7);
     height: auto;
-    top: 18%;
     border-radius: 5%;
     margin: 0;
     padding: 0.6em;
@@ -770,6 +771,9 @@ h2 {
     color: rgb(56, 56, 56);
     opacity: 0;
     transition: 2s;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 30%;
   }
 
   .allskills {

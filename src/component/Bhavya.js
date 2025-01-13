@@ -9,10 +9,8 @@ const Bhavya = ({className}) => {
   return (
    
       <div className={className}>
-        <h4>A passionate programmer with 3 years of experience <br/> software engineering and developing new features <br/>and app 
-for different products and company  with all <br/>aspects of the Software Development Life  Cycle to <br/> meet specific 
-project and business requirements. <br/><br/>  With a background in computer software, <br/> databases, and Big data 
-technology, can work <br/>effectively  in an ever-changing technical world</h4>
+        <h4>Results-driven Full Stack Developer with extensive experience in Agile methodologies and a proven track record of delivering high-quality web applications. Skilled in both frontend and backend technologies, with expertise in cloud computing, DevOps practices, and leading development teams. Strong problem-solving abilities and a passion for continuous learning and innovation in software development.
+</h4>
         <img className="maji" height={300} src={Bhav1} alt="" />
         <img className="raji" height={288} src={Bhav2} alt="" />
       </div>

@@ -201,6 +201,7 @@ h2 {
   color: rgb(56, 56, 56);
   opacity: 0;
   transition: 2s;
+  width: 200px;
   left: 50%;
   transform: translate(-50%, -50%);
   top: 30%;
